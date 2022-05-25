@@ -2,11 +2,7 @@ from pathlib import Path
 import re
 
 root = Path('.')
-readme = ['''---
-css:
-  custom: >-
-    @media (prefers-color-scheme: dark) {html {filter: invert(1);}}
----''']
+readme = []
 for folder in sorted(root.iterdir()):
     if folder.is_dir() and not folder.as_posix().startswith(('.', 'assets')):
         readme.append(f'## {folder}')
