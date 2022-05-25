@@ -2,16 +2,40 @@ from pathlib import Path
 import re
 
 root = Path('.')
-index = []
+readme = []
 for folder in sorted(root.iterdir()):
     if folder.is_dir() and not folder.as_posix().startswith('.'):
-        index.append(f'## {folder}')
+        readme.append(f'## {folder}')
         for file in folder.iterdir():
             with open(file, 'r') as f:
                 md = f.read()
             title = re.search('(?<=# ).*(?=\n)', md).group()
-            index.append(f'* [{title}]({file})')
-        index.append('\n')
+            readme.append(f'* [{title}]({file})')
+        readme.append('\n')
 
 with open('README.md', 'w') as f:
-    f.write("\n".join(index))
+    f.write("\n".join(readme))
+
+
+
+index = ['''
+<head>
+@media (prefers-color-scheme: dark) {
+    html {
+        filter: invert(1);
+    }
+}
+</head>
+''']
+for folder in sorted(root.iterdir()):
+    if folder.is_dir() and not folder.as_posix().startswith('.'):
+        index.append(f'<h2>{folder}</h2>')
+        for file in folder.iterdir():
+            with open(file, 'r') as f:
+                md = f.read()
+            title = re.search('(?<=# ).*(?=\n)', md).group()
+            index.append(f'<li>[{title}]({file})</li>')
+        index.append('<br>')
+
+with open('index.html', 'w') as f:
+    f.write("<br>".join(index))
