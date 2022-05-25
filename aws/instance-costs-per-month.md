@@ -1,4 +1,4 @@
-Display EC2 instance costs per month
+# Display EC2 instance costs per month
 
 From [Simon Willison](https://til.simonwillison.net/aws/instance-costs-per-month):
 
