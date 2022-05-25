@@ -2,7 +2,13 @@ from pathlib import Path
 import re
 
 root = Path('.')
-index = []
+index = ['''
+@media (prefers-color-scheme: dark) {
+    html {
+        filter: invert(1);
+    }
+}
+''']
 for folder in sorted(root.iterdir()):
     if folder.is_dir() and not folder.as_posix().startswith('.'):
         index.append(f'## {folder}')
