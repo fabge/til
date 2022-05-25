@@ -1,8 +1,3 @@
----
-css:
-  custom: >-
-    @media (prefers-color-scheme: dark) {html {filter: invert(1);}}
----
 ## aws
 * [Display EC2 instance costs per month](aws/instance-costs-per-month.md)
 * [Have pretty URLs when using S3 and CloudFront](aws/s3-cloudfront-pretty-urls.md)
