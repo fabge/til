@@ -5,7 +5,7 @@
 
 ## bash
 * [Escaping strings in Bash using `!:q`](bash/escape-string.md)
-* [cd and run bash script in specific directory](bash/cd-and-run-in-directory.md)
+* [Run bash script in specific directory](bash/cd-and-run-in-directory.md)
 
 
 ## git
