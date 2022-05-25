@@ -8,7 +8,7 @@ css:
     @media (prefers-color-scheme: dark) {html {filter: invert(1);}}
 ---''']
 for folder in sorted(root.iterdir()):
-    if folder.is_dir() and not folder.as_posix().startswith('.'):
+    if folder.is_dir() and not folder.as_posix().startswith(('.', 'assets')):
         readme.append(f'## {folder}')
         for file in folder.iterdir():
             with open(file, 'r') as f:
@@ -19,28 +19,3 @@ for folder in sorted(root.iterdir()):
 
 with open('README.md', 'w') as f:
     f.write("\n".join(readme))
-
-
-
-# index = ['''
-# <head>
-# @media (prefers-color-scheme: dark) {
-#     html {
-#         filter: invert(1);
-#     }
-# }
-# </head>
-# ''']
-# for folder in sorted(root.iterdir()):
-#     if folder.is_dir() and not folder.as_posix().startswith('.'):
-#         index.append(f'<h2>{folder}</h2>')
-#         for file in folder.iterdir():
-#             with open(file, 'r') as f:
-#                 md = f.read()
-#             title = re.search('(?<=# ).*(?=\n)', md).group()
-#             index.append(f'<li>[{title}]({file})</li>')
-#         index.append('<br>')
-#     index.append('<br>')
-
-# with open('index.html', 'w') as f:
-#     f.write("<br>".join(index))
