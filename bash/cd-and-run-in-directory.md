@@ -1,4 +1,4 @@
-# What's the cleanest way to have a bash script run something in a specific working directory?
+# cd and run bash script in specific directory
 
 From [Simon Willison](https://twitter.com/simonw/status/1380596108502528002). There is always the possibility of `cd`ing into a directory and returning afterwards:
 

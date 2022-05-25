@@ -1,4 +1,4 @@
-# Escaping strings in Bash using !:q
+# Escaping strings in Bash using `!:q`
 
 From [Simon Willison](https://github.com/simonw/til/blob/main/bash/escaping-a-string.md). Enter a line of Bash starting with a `#` comment, then run `!:q` on the next line to see what that would be with proper Bash escaping applied.
 
