@@ -1,6 +1,6 @@
 # What's the cleanest way to have a bash script run something in a specific working directory?
 
-There is always the possibility of `cd`ing into a directory and returning afterwards:
+From [Simon Willison](https://twitter.com/simonw/status/1380596108502528002). There is always the possibility of `cd`ing into a directory and returning afterwards:
 
 ```bash
 cd some-dir && ./my-script && cd -
