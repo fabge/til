@@ -4,8 +4,8 @@
 
 
 ## bash
-* [Escaping strings in Bash using !:q](bash/escape-string.md)
-* [What's the cleanest way to have a bash script run something in a specific working directory?](bash/cd-and-run-in-directory.md)
+* [Escaping strings in Bash using `!:q`](bash/escape-string.md)
+* [cd and run bash script in specific directory](bash/cd-and-run-in-directory.md)
 
 
 ## git
