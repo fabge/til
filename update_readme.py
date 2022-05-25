@@ -2,7 +2,10 @@ from pathlib import Path
 import re
 
 root = Path('.')
-readme = []
+readme = ['''# TIL
+
+Things I've learned, collected in [fabge/til](https://github.com/fabge/til).
+''']
 for folder in sorted(root.iterdir()):
     if folder.is_dir() and not folder.as_posix().startswith(('.', 'assets')):
         readme.append(f'## {folder}')
