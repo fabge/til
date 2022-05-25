@@ -1,5 +1,5 @@
 ## ssh
-* [escape-string](ssh/escape-string.md)
+* [setup-ssh](ssh/setup-ssh.md)
 
 
 ## git
