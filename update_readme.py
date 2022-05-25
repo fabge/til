@@ -36,6 +36,7 @@ for folder in sorted(root.iterdir()):
             title = re.search('(?<=# ).*(?=\n)', md).group()
             index.append(f'<li>[{title}]({file})</li>')
         index.append('<br>')
+    index.append('<br>')
 
 with open('index.html', 'w') as f:
     f.write("<br>".join(index))
