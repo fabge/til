@@ -1,3 +1,4 @@
 title: til
 author: Fabian Geiger
 timezone: "Berlin/Europe"
+permalink: /:title
