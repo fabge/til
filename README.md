@@ -5,6 +5,7 @@ Things I've learned, collected in [fabge/til](https://github.com/fabge/til).
 * [S3 + Cloudfront + clean URLs](aws/s3-cloudfront-clean-urls.md)
 * [Display EC2 instance costs per month](aws/instance-costs-per-month.md)
 * [Have pretty URLs when using S3 and CloudFront](aws/s3-cloudfront-pretty-urls.md)
+* [Pagination using AWS boto3](aws/pagination.md)
 
 
 ## bash
