@@ -45,7 +45,7 @@ Things I've learned, collected in [fabge/til](https://github.com/fabge/til).
 
 
 ## regex
-* [Useful regex patterns](regex/cheatsheet.md)
+* [Useful regex patterns](regex/basics.md)
 
 
 ## ssh
