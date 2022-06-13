@@ -35,6 +35,10 @@ Things I've learned, collected in [fabge/til](https://github.com/fabge/til).
 * [Pretty-print JSON blobs](json/pretty-print-json.md)
 
 
+## misc
+* [Idempotence](misc/idempotence.md)
+
+
 ## pytest
 * [How to cheat at unit tests](pytest/cheating-at-unit-tests.md)
 
