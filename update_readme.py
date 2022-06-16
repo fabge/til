@@ -11,7 +11,7 @@ for folder in sorted(root.iterdir()):
         for file in folder.iterdir():
             with open(file, 'r') as f:
                 md = f.read()
-            title = re.search('(?<=# ).*(?=\n)', md).group()
+            title = re.search('# (.*?)\n', md).group(1)
             readme.append(f'* [{title}]({file})')
         readme.append('\n')
 
