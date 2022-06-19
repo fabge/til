@@ -19,6 +19,11 @@ Things I've learned, collected in [fabge/til](https://github.com/fabge/til).
 * [`set -euo pipefail`](bash/set-euo-pipefail.md)
 
 
+## browser
+* [document.designMode](browser/document-design-mode.md)
+* [Screenshots](browser/screenshots.md)
+
+
 ## git
 * [Reference commits using the commit message](git/reference-by-commit-message.md)
 
@@ -54,10 +59,6 @@ Things I've learned, collected in [fabge/til](https://github.com/fabge/til).
 
 ## regex
 * [Useful regex patterns](regex/basics.md)
-
-
-## safari
-* [Screenshots in Safari](safari/screenshots.md)
 
 
 ## ssh
