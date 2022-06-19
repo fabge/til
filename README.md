@@ -26,6 +26,7 @@ Things I've learned, collected in [fabge/til](https://github.com/fabge/til).
 
 ## git
 * [Reference commits using the commit message](git/reference-by-commit-message.md)
+* [Write proper commit messages](git/commit-messages.md)
 
 
 ## github-actions
