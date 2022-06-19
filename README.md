@@ -35,6 +35,10 @@ Things I've learned, collected in [fabge/til](https://github.com/fabge/til).
 * [Pretty-print JSON blobs](json/pretty-print-json.md)
 
 
+## macos
+* [MacOS shortcuts](macos/shortcuts.md)
+
+
 ## misc
 * [Idempotence](misc/idempotence.md)
 
