@@ -1,4 +1,4 @@
-# document.designMode
+# Make a website fully editable with document.designMode
 
 `document.designMode` makes the website fully editable.
 
