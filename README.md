@@ -20,8 +20,8 @@ Things I've learned, collected in [fabge/til](https://github.com/fabge/til).
 
 
 ## browser
-* [document.designMode](browser/document-design-mode.md)
-* [Screenshots](browser/screenshots.md)
+* [Make a website fully editable with document.designMode](browser/document-design-mode.md)
+* [Take screenshots right from the browser](browser/screenshots.md)
 
 
 ## git
