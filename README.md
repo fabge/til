@@ -52,6 +52,10 @@ Things I've learned, collected in [fabge/til](https://github.com/fabge/til).
 * [Useful regex patterns](regex/basics.md)
 
 
+## safari
+* [Screenshots in Safari](safari/screenshots.md)
+
+
 ## ssh
 * [Setup SSH keys via ssh-copy-id](ssh/setup-ssh.md)
 
