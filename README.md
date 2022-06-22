@@ -2,10 +2,10 @@ Things I've learned, collected in [fabge/til](https://github.com/fabge/til).
 
 ## aws
 
+* [Display EC2 instance costs per month](aws/instance-costs-per-month.md)
 * [Access AWS resources from Azure without credentials](aws/cross-cloud-access.md)
 * [Have pretty URLs when using S3 and CloudFront](aws/s3-cloudfront-pretty-urls.md)
 * [Various `aws cli` snippets](aws/aws-cli-snippets.md)
-* [Display EC2 instance costs per month](aws/instance-costs-per-month.md)
 * [Pagination using AWS boto3](aws/pagination.md)
 
 
@@ -26,8 +26,8 @@ Things I've learned, collected in [fabge/til](https://github.com/fabge/til).
 
 ## browser
 
-* [Make a website fully editable with document.designMode](browser/document-design-mode.md)
 * [Take screenshots right from the browser](browser/screenshots.md)
+* [Make a website fully editable with document.designMode](browser/document-design-mode.md)
 
 
 
@@ -76,8 +76,11 @@ Things I've learned, collected in [fabge/til](https://github.com/fabge/til).
 
 ## python
 
-* [Datetime formats](python/datetime-formats.md)
+* [Running async functions](python/asyncio.md)
+* [Install different Python versions](python/install-python-versions.md)
 * [Virtual environment setup](python/virtual-environment-setup.md)
+* [Datetime formats](python/datetime-formats.md)
+* [Asynchronous HTTP requests in Python](python/async-http-requests.md)
 
 
 
