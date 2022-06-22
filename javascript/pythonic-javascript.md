@@ -1,6 +1,7 @@
 # Pythonic Javascript
 
 Content from:
+
 * [Javascript for Python programmers](https://mike.depalatis.net/blog/javascript-for-python-programmers.html)
 * [Javascript Object Literal](https://www.dyn-web.com/tutorials/object-literal/)
 * [JavaScript Module Pattern: In-Depth](http://www.adequatelygood.com/JavaScript-Module-Pattern-In-Depth.html)
@@ -152,7 +153,7 @@ let sameThing = function (a, b) {
 }
 ```
 
-# General Javascript
+## General Javascript concepts
 
 A JavaScript object literal is a comma-separated list of name-value pairs wrapped in curly braces. Object literals encapsulate data, enclosing it in a tidy package. This minimizes the use of global variables which can cause problems when combining code.
 
@@ -170,7 +171,7 @@ var myObject = {
 };
 ```
 
-## Functions
+### Functions
 
 Unlike constants, variables in JavaScript don’t need an initial value. You can provide one later:
 
@@ -179,9 +180,9 @@ let name;
 name = 'John Doe';
 ```
 
-When you leave off the initial value, you create what’s called a variable declaration rather than a variable definition. Such variables automatically receive a special value of undefined, which is one of the primitive types in JavaScript. This is different in Python, where you always define variables except for variable annotations. But even then, these variables aren’t technically declared.    
+When you leave off the initial value, you create what’s called a variable declaration rather than a variable definition. Such variables automatically receive a special value of undefined, which is one of the primitive types in JavaScript. This is different in Python, where you always define variables except for variable annotations. But even then, these variables aren’t technically declared.
 
-## Arrow functions
+### Arrow functions
 
 Notice that there’s no function keyword anymore, and the return statement is implicit. The arrow symbol (=>) separates the function’s arguments from its body.  
 When you want to return an object literal from an arrow function, you need to wrap it in parentheses to avoid ambiguity with a block of code:
@@ -204,7 +205,7 @@ Otherwise, the function body would be confused for a block of code without any r
 const funcName = (param) => param + 2
 ```
 
-## Anonymous Closures
+### Anonymous Closures
 
 This is the fundamental construct that makes it all possible, and really is the single best feature of JavaScript. We’ll simply create an anonymous function, and execute it immediately. All of the code that runs inside the function lives in a closure, which provides privacy and state throughout the lifetime of our application.
 

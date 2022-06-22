@@ -1,6 +1,6 @@
 # How to cheat at unit tests
 
-Again - [Simon Willison](https://simonwillison.net/2020/Feb/11/cheating-at-unit-tests-pytest-black/):
+From [Simon Willison](https://simonwillison.net/2020/Feb/11/cheating-at-unit-tests-pytest-black/):
 
 ## How to cheat at unit tests with pytest and Black
 
@@ -8,9 +8,9 @@ In pure test-driven development you write the tests first, and don’t start on 
 
 Most of the time I find that this is a net loss on productivity. I tend to prototype my way to solutions, so I often find myself with rough running code before I’ve developed enough of a concrete implementation plan to be able to write the tests.
 
-So… I cheat. Once I’m happy with the implementation I write the tests to match it. Then once I have the tests in place and I know what needs to change I can switch to using changes to the tests to drive the implementation. 
+So… I cheat. Once I’m happy with the implementation I write the tests to match it. Then once I have the tests in place and I know what needs to change I can switch to using changes to the tests to drive the implementation.
 
-In particular, I like using a rough initial implementation to help generate the tests in the first place. 
+In particular, I like using a rough initial implementation to help generate the tests in the first place.
 
 Here’s how I do that with pytest. I’ll write a test that looks something like this:
 
@@ -22,7 +22,7 @@ def test_some_api(client):
 
 Note that I’m using the pytest-django `client` fixture here, which magically passes a fully configured Django test client object to my test function.
 
-I run this test, and it fails: 
+I run this test, and it fails:
 
 ```python
 pytest -k test_some_api 
@@ -77,7 +77,7 @@ def test_some_api(client):
 
 This last step means that no matter how giant and ugly the test comparison has become I’ll always get a neatly formatted test out of it.
 
-I always eyeball the generated test to make sure that it’s what I would have written by hand if I wasn’t so lazy—then I commit it along with the implementation and move on to the next task.</django.test.client.client></a> <a id="Cheating_at_unit_tests_10">
+I always eyeball the generated test to make sure that it’s what I would have written by hand if I wasn’t so lazy—then I commit it along with the implementation and move on to the next task.
 
 I’ve used this technique to write many of the tests in both</a> [Datasette](https://github.com/simonw/datasette) and [sqlite-utils](https://github.com/simonw/sqlite-utils), and those are by far the best tested pieces of software I’ve ever released.
 
