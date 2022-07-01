@@ -13,7 +13,26 @@ while 'NextToken' in response:
     stack_instances += response['Summaries']
 ```
 
-Instead, there is a convenient `get_pagination()` method, which makes the API call more succinct:
+The problem above is the duplicate `list_stack_instances` method call.  
+Another way without having to call the method twice would look like this:
+
+```python
+client = boto3.client('cloudformation')
+stack_instances = []
+next_token = None
+first = True
+while first or next_token:
+    first = False
+    kwargs = {"StackSetName": test-stack}
+    if next_token:
+        kwargs["NextToken"] = next_token
+    response = cloudformation.list_stack_instances(**kwargs)
+    stack_instances.extend(response["Summaries"])
+    next_token = response.get("NextToken")
+```
+
+The code looks too verbose to me though.
+There is a convenient `get_pagination()` method, which makes the API call more succinct:
 
 ```python
 client = boto3.client('cloudformation')
