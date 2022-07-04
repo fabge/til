@@ -83,6 +83,7 @@ Things I've learned, collected in [fabge/til](https://github.com/fabge/til).
 ## python
 
 * [Running async functions](python/asyncio.md)
+* [Align string output with f-strings](python/align-string-output.md)
 * [Install different Python versions](python/install-python-versions.md)
 * [Virtual environment setup](python/virtual-environment-setup.md)
 * [Datetime formats](python/datetime-formats.md)
