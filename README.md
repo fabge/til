@@ -87,7 +87,7 @@ Things I've learned, collected in [fabge/til](https://github.com/fabge/til).
 * [Install different Python versions](python/install-python-versions.md)
 * [Virtual environment setup](python/virtual-environment-setup.md)
 * [Datetime formats](python/datetime-formats.md)
-* [Asynchronous HTTP requests in Python](python/async-http-requests.md)
+* [Simultaneous HTTP requests in Python](python/parallel-http-requests.md)
 
 
 
