@@ -15,6 +15,6 @@ def get_pokemon(client, url):
 
 urls = [f'https://pokeapi.co/api/v2/pokemon/{number}' for number in range(1,151)]
 
-with concurrent.futures.ThreadPoolExecutor() as exector : 
-   exector.map(get_pokemon, urls)
+with concurrent.futures.ThreadPoolExecutor() as executor: 
+   executor.map(get_pokemon, urls)
 ```
