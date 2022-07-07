@@ -8,3 +8,5 @@
 `alt` + `shift` + `up`/`down` -> copy line  
 
 `cmd` + `k` , `m` -> change languade mode
+
+`ctrl` + `shift` + `´` -> focus terminal
