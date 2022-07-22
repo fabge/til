@@ -53,6 +53,7 @@ Things I've learned, collected in [fabge/til](https://github.com/fabge/til).
 
 ## javascript
 
+* [Run async function on top level](javascript/async-top-level.md)
 * [Pythonic Javascript](javascript/pythonic-javascript.md)
 
 
