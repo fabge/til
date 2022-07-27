@@ -19,6 +19,8 @@ Things I've learned, collected in [fabge/til](https://github.com/fabge/til).
 ## bash
 
 * [Escaping strings in Bash using `!:q`](bash/escape-string.md)
+* [Tmux](bash/tmux.md)
+* [Vim](bash/vim.md)
 * [Replace variables](bash/replace-variables.md)
 * [`set -euo pipefail`](bash/set-euo-pipefail.md)
 * [Run bash script in specific directory](bash/cd-and-run-in-directory.md)
