@@ -11,6 +11,8 @@
 `:` -> switch to ex mode  
 `:wq` -> write and quit  
 `/` -> different parts/parameters of ex commands are separated by a slash
+`:sp` -> split window horizontally
+`ctrl` + `w`, `↓` -> switches panes
 
 ## Motions
 
@@ -31,6 +33,8 @@
 `u` -> undo
 
 `y` -> copy (yank)
+
+`x` -> delete character
 
 `p` -> paste
 
