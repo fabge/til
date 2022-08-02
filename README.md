@@ -93,6 +93,7 @@ Things I've learned, collected in [fabge/til](https://github.com/fabge/til).
 * [Parallel HTTP requests in Python](python/parallel-http-requests.md)
 * [Virtual environment setup](python/virtual-environment-setup.md)
 * [Pandas](python/pandas.md)
+* [nbdev](python/nbdev.md)
 * [Running async functions](python/asyncio.md)
 
 
