@@ -2,11 +2,11 @@ Things I've learned, collected in [fabge/til](https://github.com/fabge/til).
 
 ## aws
 
+* [Have pretty URLs when using S3 and CloudFront](aws/s3-cloudfront-pretty-urls.md)
+* [Display EC2 instance costs per month](aws/instance-costs-per-month.md)
 * [Access AWS resources from Azure without credentials](aws/cross-cloud-access.md)
 * [Pagination using AWS boto3](aws/pagination.md)
-* [Have pretty URLs when using S3 and CloudFront](aws/s3-cloudfront-pretty-urls.md)
 * [Various `aws cli` snippets](aws/aws-cli-snippets.md)
-* [Display EC2 instance costs per month](aws/instance-costs-per-month.md)
 
 
 
@@ -18,12 +18,12 @@ Things I've learned, collected in [fabge/til](https://github.com/fabge/til).
 
 ## bash
 
-* [Escaping strings in Bash using `!:q`](bash/escape-string.md)
+* [`set -euo pipefail`](bash/set-euo-pipefail.md)
 * [Tmux](bash/tmux.md)
+* [Run bash script in specific directory](bash/cd-and-run-in-directory.md)
 * [Vim](bash/vim.md)
 * [Replace variables](bash/replace-variables.md)
-* [`set -euo pipefail`](bash/set-euo-pipefail.md)
-* [Run bash script in specific directory](bash/cd-and-run-in-directory.md)
+* [Escaping strings in Bash using `!:q`](bash/escape-string.md)
 
 
 
@@ -42,9 +42,9 @@ Things I've learned, collected in [fabge/til](https://github.com/fabge/til).
 
 ## git
 
-* [Reference commits using the commit message](git/reference-by-commit-message.md)
 * [fatal: Need to specify how to reconcile divergent branches](git/reconcile-divergent-branches.md)
 * [Write proper commit messages](git/commit-messages.md)
+* [Reference commits using the commit message](git/reference-by-commit-message.md)
 
 
 
@@ -87,14 +87,15 @@ Things I've learned, collected in [fabge/til](https://github.com/fabge/til).
 
 ## python
 
-* [Datetime formats](python/datetime-formats.md)
 * [Align string output with f-strings](python/align-string-output.md)
-* [Install different Python versions](python/install-python-versions.md)
+* [Running async functions](python/asyncio.md)
+* [nbdev](python/nbdev.md)
+* [Django](python/django.md)
+* [Pandas](python/pandas.md)
+* [Datetime formats](python/datetime-formats.md)
 * [Parallel HTTP requests in Python](python/parallel-http-requests.md)
 * [Virtual environment setup](python/virtual-environment-setup.md)
-* [Pandas](python/pandas.md)
-* [nbdev](python/nbdev.md)
-* [Running async functions](python/asyncio.md)
+* [Install different Python versions](python/install-python-versions.md)
 
 
 
