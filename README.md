@@ -89,6 +89,7 @@ Things I've learned, collected in [fabge/til](https://github.com/fabge/til).
 
 * [Align string output with f-strings](python/align-string-output.md)
 * [Running async functions](python/asyncio.md)
+* [Walrus Operator](python/walrus-operator.md)
 * [nbdev](python/nbdev.md)
 * [Django](python/django.md)
 * [Pandas](python/pandas.md)
