@@ -54,6 +54,12 @@ Things I've learned, collected in [fabge/til](https://github.com/fabge/til).
 
 
 
+## img
+
+* [Shrink images](img/shrink-images.md)
+
+
+
 ## javascript
 
 * [Run async function on top level](javascript/async-top-level.md)
