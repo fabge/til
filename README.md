@@ -56,7 +56,7 @@ Things I've learned, collected in [fabge/til](https://github.com/fabge/til).
 
 ## img
 
-* [Shrink images](img/shrink-images.md)
+* [Shrink/reduce/compress image sizes](img/shrink-images.md)
 
 
 
