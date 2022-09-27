@@ -4,9 +4,9 @@ Things I've learned, collected in [fabge/til](https://github.com/fabge/til).
 
 * [Have pretty URLs when using S3 and CloudFront](aws/s3-cloudfront-pretty-urls.md)
 * [Display EC2 instance costs per month](aws/instance-costs-per-month.md)
-* [Access AWS resources from Azure without credentials](aws/cross-cloud-access.md)
-* [Pagination using AWS boto3](aws/pagination.md)
 * [Various `aws cli` snippets](aws/aws-cli-snippets.md)
+* [Pagination using AWS boto3](aws/pagination.md)
+* [Access AWS resources from Azure without credentials](aws/cross-cloud-access.md)
 
 
 
@@ -18,12 +18,12 @@ Things I've learned, collected in [fabge/til](https://github.com/fabge/til).
 
 ## bash
 
+* [Escaping strings in Bash using `!:q`](bash/escape-string.md)
 * [`set -euo pipefail`](bash/set-euo-pipefail.md)
-* [Tmux](bash/tmux.md)
+* [Replace variables](bash/replace-variables.md)
 * [Run bash script in specific directory](bash/cd-and-run-in-directory.md)
 * [Vim](bash/vim.md)
-* [Replace variables](bash/replace-variables.md)
-* [Escaping strings in Bash using `!:q`](bash/escape-string.md)
+* [Tmux](bash/tmux.md)
 
 
 
@@ -42,9 +42,10 @@ Things I've learned, collected in [fabge/til](https://github.com/fabge/til).
 
 ## git
 
-* [fatal: Need to specify how to reconcile divergent branches](git/reconcile-divergent-branches.md)
+* [Using Multiple SSH Keys](git/multiple-ssh-keys.md)
 * [Write proper commit messages](git/commit-messages.md)
 * [Reference commits using the commit message](git/reference-by-commit-message.md)
+* [fatal: Need to specify how to reconcile divergent branches](git/reconcile-divergent-branches.md)
 
 
 
@@ -93,16 +94,16 @@ Things I've learned, collected in [fabge/til](https://github.com/fabge/til).
 
 ## python
 
+* [nbdev](python/nbdev.md)
+* [Datetime formats](python/datetime-formats.md)
 * [Align string output with f-strings](python/align-string-output.md)
 * [Running async functions](python/asyncio.md)
-* [Walrus Operator](python/walrus-operator.md)
-* [nbdev](python/nbdev.md)
-* [Django](python/django.md)
-* [Pandas](python/pandas.md)
-* [Datetime formats](python/datetime-formats.md)
-* [Parallel HTTP requests in Python](python/parallel-http-requests.md)
 * [Virtual environment setup](python/virtual-environment-setup.md)
 * [Install different Python versions](python/install-python-versions.md)
+* [Pandas](python/pandas.md)
+* [Walrus Operator](python/walrus-operator.md)
+* [Parallel HTTP requests in Python](python/parallel-http-requests.md)
+* [Django](python/django.md)
 
 
 
