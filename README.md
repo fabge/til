@@ -4,9 +4,9 @@ Things I've learned, collected in [fabge/til](https://github.com/fabge/til).
 
 * [Have pretty URLs when using S3 and CloudFront](aws/s3-cloudfront-pretty-urls.md)
 * [Display EC2 instance costs per month](aws/instance-costs-per-month.md)
-* [Various `aws cli` snippets](aws/aws-cli-snippets.md)
 * [Pagination using AWS boto3](aws/pagination.md)
 * [Access AWS resources from Azure without credentials](aws/cross-cloud-access.md)
+* [Useful `aws` snippets](aws/aws-snippets.md)
 
 
 
