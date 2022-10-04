@@ -16,6 +16,12 @@ Things I've learned, collected in [fabge/til](https://github.com/fabge/til).
 
 
 
+## azure-devops
+
+* [Remove Azure DevOps Retention Leases](azure-devops/remove-retention-leases.md)
+
+
+
 ## bash
 
 * [Escaping strings in Bash using `!:q`](bash/escape-string.md)
