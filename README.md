@@ -3,6 +3,7 @@ Things I've learned, collected in [fabge/til](https://github.com/fabge/til).
 ## aws
 
 * [Have pretty URLs when using S3 and CloudFront](aws/s3-cloudfront-pretty-urls.md)
+* [Step Function Monitoring](aws/step-function-monitoring.md)
 * [Display EC2 instance costs per month](aws/instance-costs-per-month.md)
 * [Pagination using AWS boto3](aws/pagination.md)
 * [Access AWS resources from Azure without credentials](aws/cross-cloud-access.md)
@@ -25,6 +26,7 @@ Things I've learned, collected in [fabge/til](https://github.com/fabge/til).
 ## bash
 
 * [Escaping strings in Bash using `!:q`](bash/escape-string.md)
+* [Bash snippets](bash/bash-snippets.md)
 * [`set -euo pipefail`](bash/set-euo-pipefail.md)
 * [Replace variables](bash/replace-variables.md)
 * [Run bash script in specific directory](bash/cd-and-run-in-directory.md)
