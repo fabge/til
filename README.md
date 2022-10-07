@@ -48,6 +48,12 @@ Things I've learned, collected in [fabge/til](https://github.com/fabge/til).
 
 
 
+## django
+
+* [Safely Pass Data to JavaScript in a Django Template](django/safely-pass-data-to-javascript-in-a-django-template.md)
+
+
+
 ## git
 
 * [Using Multiple SSH Keys](git/multiple-ssh-keys.md)
