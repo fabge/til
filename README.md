@@ -5,6 +5,7 @@ Things I've learned, collected in [fabge/til](https://github.com/fabge/til).
 * [Display EC2 instance costs per month](aws/instance-costs-per-month.md)
 * [Have pretty URLs when using S3 and CloudFront](aws/s3-cloudfront-pretty-urls.md)
 * [Useful `aws` snippets](aws/aws-snippets.md)
+* [Assume a role across AWS accounts](aws/assume-cross-account-role.md)
 * [Access AWS resources from Azure without credentials](aws/cross-cloud-access.md)
 * [Search CloudWatch logs](aws/search-cloudwatch-logs.md)
 * [Step Function Monitoring](aws/step-function-monitoring.md)
