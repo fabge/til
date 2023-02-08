@@ -51,3 +51,34 @@ AppRegistrationRole:
 ```
 
 The AssumeRolePolicyDocument is formatted via !Sub and JSON to be able to substitute the `TenantId` in the key of the `StringEquals` condition.
+
+To assume the role, you have to generate a token with the correct audience and then use the `sts:AssumeRoleWithWebIdentity` action.
+
+```python
+from azure.identity import ClientSecretCredential
+import boto3
+
+credential = ClientSecretCredential(
+    tenant_id="<tenant-id>",
+    client_id="<client-id>",
+    client_secret="<client-secret>"
+)
+
+result = credential.get_token("<AppRegistrationIdUri>")
+token = result[0]
+
+sts_client = boto3.client('sts')
+assumed_role_object = sts_client.assume_role_with_web_identity(
+    RoleArn='arn:aws:iam::<aws-account-id>:role/<arn of the AppRegistrationRole>',
+    RoleSessionName='CoolSession',
+    WebIdentityToken=token)
+
+credentials = assumed_role_object['Credentials']
+
+s3_client = boto3.client(
+  's3',
+  aws_access_key_id=credentials['AccessKeyId'],
+  aws_secret_access_key=credentials['SecretAccessKey'],
+  aws_session_token=credentials['SessionToken']
+)
+```
