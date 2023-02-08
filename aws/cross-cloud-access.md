@@ -59,13 +59,12 @@ from azure.identity import ClientSecretCredential
 import boto3
 
 credential = ClientSecretCredential(
-    tenant_id="<tenant-id>",
-    client_id="<client-id>",
-    client_secret="<client-secret>"
+    tenant_id='<tenant-id>',
+    client_id='<client-id>',
+    client_secret='<client-secret>'
 )
 
-result = credential.get_token("<AppRegistrationIdUri>")
-token = result[0]
+token = credential.get_token('<AppRegistrationIdUri>').token
 
 sts_client = boto3.client('sts')
 assumed_role_object = sts_client.assume_role_with_web_identity(
