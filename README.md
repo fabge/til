@@ -2,14 +2,14 @@ Things I've learned, collected in [fabge/til](https://github.com/fabge/til).
 
 ## aws
 
-* [Assume a role across AWS accounts](aws/assume-cross-account-role.md)
 * [Useful `aws` snippets](aws/aws-snippets.md)
-* [Pagination using AWS boto3](aws/pagination.md)
-* [Have pretty URLs when using S3 and CloudFront](aws/s3-cloudfront-pretty-urls.md)
+* [Assume a role across AWS accounts](aws/assume-cross-account-role.md)
 * [Step Function Monitoring](aws/step-function-monitoring.md)
 * [Search CloudWatch logs](aws/search-cloudwatch-logs.md)
-* [Display EC2 instance costs per month](aws/instance-costs-per-month.md)
 * [Access AWS resources from Azure without credentials](aws/cross-cloud-access.md)
+* [Display EC2 instance costs per month](aws/instance-costs-per-month.md)
+* [Have pretty URLs when using S3 and CloudFront](aws/s3-cloudfront-pretty-urls.md)
+* [Pagination using AWS boto3](aws/pagination.md)
 
 ## azure
 
@@ -21,18 +21,18 @@ Things I've learned, collected in [fabge/til](https://github.com/fabge/til).
 
 ## bash
 
-* [Tmux](bash/tmux.md)
 * [Run bash script in specific directory](bash/cd-and-run-in-directory.md)
-* [Escaping strings in Bash using `!:q`](bash/escape-string.md)
-* [`set -euo pipefail`](bash/set-euo-pipefail.md)
 * [Bash snippets](bash/bash-snippets.md)
+* [Escaping strings in Bash using `!:q`](bash/escape-string.md)
+* [Tmux](bash/tmux.md)
+* [`set -euo pipefail`](bash/set-euo-pipefail.md)
 * [Vim](bash/vim.md)
 * [Replace variables](bash/replace-variables.md)
 
 ## browser
 
-* [Make a website fully editable with document.designMode](browser/document-design-mode.md)
 * [Take screenshots right from the browser](browser/screenshots.md)
+* [Make a website fully editable with document.designMode](browser/document-design-mode.md)
 
 ## cloudflare
 
@@ -44,10 +44,10 @@ Things I've learned, collected in [fabge/til](https://github.com/fabge/til).
 
 ## git
 
-* [fatal: Need to specify how to reconcile divergent branches](git/reconcile-divergent-branches.md)
 * [Using Multiple SSH Keys](git/multiple-ssh-keys.md)
-* [Reference commits using the commit message](git/reference-by-commit-message.md)
 * [Write proper commit messages](git/commit-messages.md)
+* [Reference commits using the commit message](git/reference-by-commit-message.md)
+* [fatal: Need to specify how to reconcile divergent branches](git/reconcile-divergent-branches.md)
 
 ## github
 
@@ -61,6 +61,7 @@ Things I've learned, collected in [fabge/til](https://github.com/fabge/til).
 ## javascript
 
 * [Pythonic Javascript](javascript/pythonic-javascript.md)
+* [Write Javascript/Node in a notebook](javascript/javascript-in-notebook.md)
 * [Run async function on top level](javascript/async-top-level.md)
 * [Print current year](javascript/print-current-year.md)
 
@@ -83,16 +84,16 @@ Things I've learned, collected in [fabge/til](https://github.com/fabge/til).
 ## python
 
 * [Walrus Operator](python/walrus-operator.md)
+* [nbdev](python/nbdev.md)
 * [Running async functions](python/asyncio.md)
+* [Align string output with f-strings](python/align-string-output.md)
+* [pdb interact command](python/pdb-interact.md)
+* [Parallel HTTP requests in Python](python/parallel-http-requests.md)
+* [Django](python/django.md)
+* [Virtual environment setup](python/virtual-environment-setup.md)
 * [Pandas](python/pandas.md)
 * [Install different Python versions](python/install-python-versions.md)
-* [Virtual environment setup](python/virtual-environment-setup.md)
 * [Datetime formats](python/datetime-formats.md)
-* [Parallel HTTP requests in Python](python/parallel-http-requests.md)
-* [pdb interact command](python/pdb-interact.md)
-* [nbdev](python/nbdev.md)
-* [Align string output with f-strings](python/align-string-output.md)
-* [Django](python/django.md)
 
 ## regex
 
