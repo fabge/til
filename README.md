@@ -3,6 +3,7 @@ Things I've learned, collected in [fabge/til](https://github.com/fabge/til).
 ## aws
 
 * [Useful `aws` snippets](aws/aws-snippets.md)
+* [Reference AWS account](aws/reference-aws-account.md)
 * [Assume a role across AWS accounts](aws/assume-cross-account-role.md)
 * [Step Function Monitoring](aws/step-function-monitoring.md)
 * [Search CloudWatch logs](aws/search-cloudwatch-logs.md)
