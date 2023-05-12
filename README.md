@@ -2,15 +2,16 @@ Things I've learned, collected in [fabge/til](https://github.com/fabge/til).
 
 ## aws
 
-* [Useful `aws` snippets](aws/aws-snippets.md)
-* [Reference AWS account](aws/reference-aws-account.md)
-* [Assume a role across AWS accounts](aws/assume-cross-account-role.md)
 * [Step Function Monitoring](aws/step-function-monitoring.md)
-* [Search CloudWatch logs](aws/search-cloudwatch-logs.md)
+* [CloudTrail](aws/cloudtrail.md)
 * [Access AWS resources from Azure without credentials](aws/cross-cloud-access.md)
+* [Search CloudWatch logs](aws/search-cloudwatch-logs.md)
+* [Assume a role across AWS accounts](aws/assume-cross-account-role.md)
 * [Display EC2 instance costs per month](aws/instance-costs-per-month.md)
-* [Have pretty URLs when using S3 and CloudFront](aws/s3-cloudfront-pretty-urls.md)
+* [Useful `aws` snippets](aws/aws-snippets.md)
 * [Pagination using AWS boto3](aws/pagination.md)
+* [Have pretty URLs when using S3 and CloudFront](aws/s3-cloudfront-pretty-urls.md)
+* [Reference AWS account](aws/reference-aws-account.md)
 
 ## azure
 
@@ -22,13 +23,13 @@ Things I've learned, collected in [fabge/til](https://github.com/fabge/til).
 
 ## bash
 
-* [Run bash script in specific directory](bash/cd-and-run-in-directory.md)
-* [Bash snippets](bash/bash-snippets.md)
-* [Escaping strings in Bash using `!:q`](bash/escape-string.md)
 * [Tmux](bash/tmux.md)
-* [`set -euo pipefail`](bash/set-euo-pipefail.md)
 * [Vim](bash/vim.md)
+* [`set -euo pipefail`](bash/set-euo-pipefail.md)
 * [Replace variables](bash/replace-variables.md)
+* [Bash snippets](bash/bash-snippets.md)
+* [Run bash script in specific directory](bash/cd-and-run-in-directory.md)
+* [Escaping strings in Bash using `!:q`](bash/escape-string.md)
 
 ## browser
 
@@ -52,8 +53,8 @@ Things I've learned, collected in [fabge/til](https://github.com/fabge/til).
 
 ## github
 
-* [Skip CI](github/skip-ci.md)
 * [Commit a file if it changed](github/commit-if-file-changed.md)
+* [Skip CI](github/skip-ci.md)
 
 ## img
 
@@ -61,10 +62,10 @@ Things I've learned, collected in [fabge/til](https://github.com/fabge/til).
 
 ## javascript
 
-* [Pythonic Javascript](javascript/pythonic-javascript.md)
-* [Write Javascript/Node in a notebook](javascript/javascript-in-notebook.md)
-* [Run async function on top level](javascript/async-top-level.md)
 * [Print current year](javascript/print-current-year.md)
+* [Run async function on top level](javascript/async-top-level.md)
+* [Write Javascript/Node in a notebook](javascript/javascript-in-notebook.md)
+* [Pythonic Javascript](javascript/pythonic-javascript.md)
 
 ## json
 
@@ -86,15 +87,15 @@ Things I've learned, collected in [fabge/til](https://github.com/fabge/til).
 
 * [Walrus Operator](python/walrus-operator.md)
 * [nbdev](python/nbdev.md)
-* [Running async functions](python/asyncio.md)
-* [Align string output with f-strings](python/align-string-output.md)
-* [pdb interact command](python/pdb-interact.md)
-* [Parallel HTTP requests in Python](python/parallel-http-requests.md)
-* [Django](python/django.md)
 * [Virtual environment setup](python/virtual-environment-setup.md)
+* [Django](python/django.md)
+* [Running async functions](python/asyncio.md)
 * [Pandas](python/pandas.md)
-* [Install different Python versions](python/install-python-versions.md)
 * [Datetime formats](python/datetime-formats.md)
+* [Align string output with f-strings](python/align-string-output.md)
+* [Parallel HTTP requests in Python](python/parallel-http-requests.md)
+* [pdb interact command](python/pdb-interact.md)
+* [Install different Python versions](python/install-python-versions.md)
 
 ## regex
 
