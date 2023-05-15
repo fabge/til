@@ -3,26 +3,50 @@ name: Build README
 on:
   push:
     branches:
-    - main
+      - main
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
 
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-    - name: Check out repo
-      uses: actions/checkout@v2
-    - name: Set up Python
-      uses: actions/setup-python@v1
-      with:
-        python-version: 3.9
-    - name: Update README.md
-      run: |
-        python update_readme.py
-        cat README.md
-    - name: Commit and push if README changed
-      run: |-
-        git diff
-        git config --global user.email "readme-bot@example.com"
-        git config --global user.name "README-bot"
-        git diff --quiet || (git add README.md && git commit -m "Update README.md")
-        git push
+      - name: Check out repo
+        uses: actions/checkout@v3
+      - name: Set up Python
+        uses: actions/setup-python@v1
+        with:
+          python-version: 3.9
+      - name: Update README.md
+        run: |
+          python update_readme.py
+          cat README.md
+      - name: Commit and push if README changed
+        run: |-
+          git diff
+          git config --global user.email "readme-bot@example.com"
+          git config --global user.name "README-bot"
+          git diff --quiet || (git add README.md && git commit -m "Update README.md")
+          git push
+
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+      - name: Setup Pages
+        uses: actions/configure-pages@v3
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v1
+        with:
+          # Upload entire repository
+          path: '.'
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v2
