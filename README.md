@@ -72,6 +72,10 @@ Things I've learned, collected in [fabge/til](https://github.com/fabge/til).
 
 * [Pretty-print JSON blobs](json/pretty-print-json.md)
 
+## llm
+
+* [Prompt engineering](llm/prompt-engineering.md)
+
 ## macos
 
 * [MacOS shortcuts](macos/shortcuts.md)
