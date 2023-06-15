@@ -2,16 +2,16 @@ Things I've learned, collected in [fabge/til](https://github.com/fabge/til).
 
 ## aws
 
-* [Assume a role across AWS accounts](aws/assume-cross-account-role.md)
-* [Have pretty URLs when using S3 and CloudFront](aws/s3-cloudfront-pretty-urls.md)
-* [Step Function Monitoring](aws/step-function-monitoring.md)
-* [Search CloudWatch logs](aws/search-cloudwatch-logs.md)
-* [Useful `aws` snippets](aws/aws-snippets.md)
-* [Pagination using AWS boto3](aws/pagination.md)
-* [Access AWS resources from Azure without credentials](aws/cross-cloud-access.md)
-* [Display EC2 instance costs per month](aws/instance-costs-per-month.md)
 * [Reference AWS account](aws/reference-aws-account.md)
 * [CloudTrail](aws/cloudtrail.md)
+* [Pagination using AWS boto3](aws/pagination.md)
+* [Search CloudWatch logs](aws/search-cloudwatch-logs.md)
+* [Display EC2 instance costs per month](aws/instance-costs-per-month.md)
+* [Have pretty URLs when using S3 and CloudFront](aws/s3-cloudfront-pretty-urls.md)
+* [Step Function Monitoring](aws/step-function-monitoring.md)
+* [Useful `aws` snippets](aws/aws-snippets.md)
+* [Assume a role across AWS accounts](aws/assume-cross-account-role.md)
+* [Access AWS resources from Azure without credentials](aws/cross-cloud-access.md)
 
 ## azure
 
@@ -23,13 +23,13 @@ Things I've learned, collected in [fabge/til](https://github.com/fabge/til).
 
 ## bash
 
-* [Escaping strings in Bash using `!:q`](bash/escape-string.md)
-* [Bash snippets](bash/bash-snippets.md)
-* [Replace variables](bash/replace-variables.md)
-* [`set -euo pipefail`](bash/set-euo-pipefail.md)
-* [Tmux](bash/tmux.md)
 * [Vim](bash/vim.md)
+* [Escaping strings in Bash using `!:q`](bash/escape-string.md)
 * [Run bash script in specific directory](bash/cd-and-run-in-directory.md)
+* [Tmux](bash/tmux.md)
+* [`set -euo pipefail`](bash/set-euo-pipefail.md)
+* [Replace variables](bash/replace-variables.md)
+* [Bash snippets](bash/bash-snippets.md)
 
 ## browser
 
@@ -46,16 +46,16 @@ Things I've learned, collected in [fabge/til](https://github.com/fabge/til).
 
 ## git
 
-* [Reference commits using the commit message](git/reference-by-commit-message.md)
-* [fatal: Need to specify how to reconcile divergent branches](git/reconcile-divergent-branches.md)
 * [Using Multiple SSH Keys](git/multiple-ssh-keys.md)
 * [Write proper commit messages](git/commit-messages.md)
+* [fatal: Need to specify how to reconcile divergent branches](git/reconcile-divergent-branches.md)
+* [Reference commits using the commit message](git/reference-by-commit-message.md)
 
 ## github
 
-* [Skip CI](github/skip-ci.md)
 * [Commit a file if it changed](github/commit-if-file-changed.md)
 * [Download latest release](github/download-latest-release.md)
+* [Skip CI](github/skip-ci.md)
 
 ## img
 
@@ -63,10 +63,10 @@ Things I've learned, collected in [fabge/til](https://github.com/fabge/til).
 
 ## javascript
 
-* [Run async function on top level](javascript/async-top-level.md)
-* [Write Javascript/Node in a notebook](javascript/javascript-in-notebook.md)
 * [Print current year](javascript/print-current-year.md)
 * [Pythonic Javascript](javascript/pythonic-javascript.md)
+* [Write Javascript/Node in a notebook](javascript/javascript-in-notebook.md)
+* [Run async function on top level](javascript/async-top-level.md)
 
 ## json
 
@@ -90,17 +90,17 @@ Things I've learned, collected in [fabge/til](https://github.com/fabge/til).
 
 ## python
 
-* [Align string output with f-strings](python/align-string-output.md)
-* [Django](python/django.md)
-* [Running async functions](python/asyncio.md)
-* [Install different Python versions](python/install-python-versions.md)
 * [pdb interact command](python/pdb-interact.md)
-* [Walrus Operator](python/walrus-operator.md)
+* [Parallel HTTP requests in Python](python/parallel-http-requests.md)
+* [Django](python/django.md)
 * [Datetime formats](python/datetime-formats.md)
 * [nbdev](python/nbdev.md)
+* [Running async functions](python/asyncio.md)
+* [Align string output with f-strings](python/align-string-output.md)
+* [Install different Python versions](python/install-python-versions.md)
 * [Pandas](python/pandas.md)
-* [Parallel HTTP requests in Python](python/parallel-http-requests.md)
 * [Virtual environment setup](python/virtual-environment-setup.md)
+* [Walrus Operator](python/walrus-operator.md)
 
 ## regex
 
