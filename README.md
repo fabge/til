@@ -2,16 +2,16 @@ Things I've learned, collected in [fabge/til](https://github.com/fabge/til).
 
 ## aws
 
-* [Reference AWS account](aws/reference-aws-account.md)
-* [CloudTrail](aws/cloudtrail.md)
-* [Pagination using AWS boto3](aws/pagination.md)
-* [Search CloudWatch logs](aws/search-cloudwatch-logs.md)
 * [Display EC2 instance costs per month](aws/instance-costs-per-month.md)
-* [Have pretty URLs when using S3 and CloudFront](aws/s3-cloudfront-pretty-urls.md)
-* [Step Function Monitoring](aws/step-function-monitoring.md)
-* [Useful `aws` snippets](aws/aws-snippets.md)
+* [Pagination using AWS boto3](aws/pagination.md)
 * [Assume a role across AWS accounts](aws/assume-cross-account-role.md)
+* [Search CloudWatch logs](aws/search-cloudwatch-logs.md)
+* [Reference AWS account](aws/reference-aws-account.md)
 * [Access AWS resources from Azure without credentials](aws/cross-cloud-access.md)
+* [Have pretty URLs when using S3 and CloudFront](aws/s3-cloudfront-pretty-urls.md)
+* [Useful `aws` snippets](aws/aws-snippets.md)
+* [CloudTrail](aws/cloudtrail.md)
+* [Step Function Monitoring](aws/step-function-monitoring.md)
 
 ## azure
 
@@ -23,22 +23,26 @@ Things I've learned, collected in [fabge/til](https://github.com/fabge/til).
 
 ## bash
 
-* [Vim](bash/vim.md)
-* [Escaping strings in Bash using `!:q`](bash/escape-string.md)
-* [Run bash script in specific directory](bash/cd-and-run-in-directory.md)
-* [Tmux](bash/tmux.md)
 * [`set -euo pipefail`](bash/set-euo-pipefail.md)
+* [Tmux](bash/tmux.md)
+* [Vim](bash/vim.md)
 * [Replace variables](bash/replace-variables.md)
+* [Escaping strings in Bash using `!:q`](bash/escape-string.md)
 * [Bash snippets](bash/bash-snippets.md)
+* [Run bash script in specific directory](bash/cd-and-run-in-directory.md)
 
 ## browser
 
-* [Make a website fully editable with document.designMode](browser/document-design-mode.md)
 * [Take screenshots right from the browser](browser/screenshots.md)
+* [Make a website fully editable with document.designMode](browser/document-design-mode.md)
 
 ## cloudflare
 
 * [ERR_TOO_MANY_REDIRECTS](cloudflare/err_too_many_redirects.md)
+
+## css
+
+* [Border around every element using CSS selector](css/border.md)
 
 ## django
 
@@ -48,14 +52,14 @@ Things I've learned, collected in [fabge/til](https://github.com/fabge/til).
 
 * [Using Multiple SSH Keys](git/multiple-ssh-keys.md)
 * [Write proper commit messages](git/commit-messages.md)
-* [fatal: Need to specify how to reconcile divergent branches](git/reconcile-divergent-branches.md)
 * [Reference commits using the commit message](git/reference-by-commit-message.md)
+* [fatal: Need to specify how to reconcile divergent branches](git/reconcile-divergent-branches.md)
 
 ## github
 
+* [Skip CI](github/skip-ci.md)
 * [Commit a file if it changed](github/commit-if-file-changed.md)
 * [Download latest release](github/download-latest-release.md)
-* [Skip CI](github/skip-ci.md)
 
 ## img
 
@@ -63,10 +67,10 @@ Things I've learned, collected in [fabge/til](https://github.com/fabge/til).
 
 ## javascript
 
-* [Print current year](javascript/print-current-year.md)
-* [Pythonic Javascript](javascript/pythonic-javascript.md)
-* [Write Javascript/Node in a notebook](javascript/javascript-in-notebook.md)
 * [Run async function on top level](javascript/async-top-level.md)
+* [Print current year](javascript/print-current-year.md)
+* [Write Javascript/Node in a notebook](javascript/javascript-in-notebook.md)
+* [Pythonic Javascript](javascript/pythonic-javascript.md)
 
 ## json
 
@@ -90,17 +94,17 @@ Things I've learned, collected in [fabge/til](https://github.com/fabge/til).
 
 ## python
 
-* [pdb interact command](python/pdb-interact.md)
-* [Parallel HTTP requests in Python](python/parallel-http-requests.md)
-* [Django](python/django.md)
-* [Datetime formats](python/datetime-formats.md)
-* [nbdev](python/nbdev.md)
-* [Running async functions](python/asyncio.md)
-* [Align string output with f-strings](python/align-string-output.md)
-* [Install different Python versions](python/install-python-versions.md)
+* [Walrus Operator](python/walrus-operator.md)
 * [Pandas](python/pandas.md)
 * [Virtual environment setup](python/virtual-environment-setup.md)
-* [Walrus Operator](python/walrus-operator.md)
+* [Align string output with f-strings](python/align-string-output.md)
+* [Parallel HTTP requests in Python](python/parallel-http-requests.md)
+* [Running async functions](python/asyncio.md)
+* [Django](python/django.md)
+* [Datetime formats](python/datetime-formats.md)
+* [Install different Python versions](python/install-python-versions.md)
+* [nbdev](python/nbdev.md)
+* [pdb interact command](python/pdb-interact.md)
 
 ## regex
 
