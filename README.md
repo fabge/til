@@ -5,6 +5,7 @@ Things I've learned, collected in [fabge/til](https://github.com/fabge/til).
 * [Display EC2 instance costs per month](aws/instance-costs-per-month.md)
 * [Pagination using AWS boto3](aws/pagination.md)
 * [Assume a role across AWS accounts](aws/assume-cross-account-role.md)
+* [DynamoDB table scan](aws/dynamo-scan.md)
 * [Search CloudWatch logs](aws/search-cloudwatch-logs.md)
 * [Reference AWS account](aws/reference-aws-account.md)
 * [Access AWS resources from Azure without credentials](aws/cross-cloud-access.md)
