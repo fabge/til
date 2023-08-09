@@ -18,6 +18,7 @@ Things I've learned, collected in [fabge/til](https://github.com/fabge/til).
 
 * [Find Azure Tenant Id by Subscription Id](azure/azure-tenant-id.md)
 * [Invoke the Azure API via HTTP endpoints](azure/rest-api.md)
+* [Azure az login](azure/azure-login.md)
 
 ## azure-devops
 
