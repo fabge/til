@@ -32,6 +32,39 @@ urlpatterns = [
 ]
 ```
 
+```python
+# main/settings.py
+
+TEMPLATES = [
+    {
+        'BACKEND': 'django.template.backends.django.DjangoTemplates',
+        'DIRS': [os.path.join(BASE_DIR,'templates')],
+        ...
+
+STATICFILES_DIRS = [
+    BASE_DIR / "static",
+]
+```
+
+```text
+/project/
+    |-- main/
+        |-- __init__.py
+        |-- asgi.py
+        |-- settings.py
+        |-- urls.py
+        |-- views.py
+        |-- wsgi.py
+    |-- static/
+        |-- input.css
+        |-- output.css
+    |-- templates/
+        |-- base.html
+        |-- index.html
+        |-- detail.html
+    |-- manage.py
+```
+
 ```html
 {% load static %}
 
