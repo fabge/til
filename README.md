@@ -50,6 +50,7 @@ Things I've learned, collected in [fabge/til](https://github.com/fabge/til).
 ## django
 
 * [Safely Pass Data to JavaScript in a Django Template](django/safely-pass-data-to-javascript-in-a-django-template.md)
+* [Django setup tl;dr](django/django-setup.md)
 
 ## git
 
