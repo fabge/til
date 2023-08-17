@@ -2,23 +2,23 @@ Things I've learned, collected in [fabge/til](https://github.com/fabge/til).
 
 ## aws
 
+* [CloudTrail](aws/cloudtrail.md)
+* [Useful `aws` snippets](aws/aws-snippets.md)
+* [Pagination using AWS boto3](aws/pagination.md)
+* [Display EC2 instance costs per month](aws/instance-costs-per-month.md)
+* [Have pretty URLs when using S3 and CloudFront](aws/s3-cloudfront-pretty-urls.md)
+* [Search CloudWatch logs](aws/search-cloudwatch-logs.md)
 * [Step Function Monitoring](aws/step-function-monitoring.md)
 * [Reference AWS account](aws/reference-aws-account.md)
-* [Assume a role across AWS accounts](aws/assume-cross-account-role.md)
 * [Access AWS resources from Azure without credentials](aws/cross-cloud-access.md)
-* [Pagination using AWS boto3](aws/pagination.md)
-* [Search CloudWatch logs](aws/search-cloudwatch-logs.md)
+* [Assume a role across AWS accounts](aws/assume-cross-account-role.md)
 * [DynamoDB table scan](aws/dynamo-scan.md)
-* [Useful `aws` snippets](aws/aws-snippets.md)
-* [Display EC2 instance costs per month](aws/instance-costs-per-month.md)
-* [CloudTrail](aws/cloudtrail.md)
-* [Have pretty URLs when using S3 and CloudFront](aws/s3-cloudfront-pretty-urls.md)
 
 ## azure
 
 * [Find Azure Tenant Id by Subscription Id](azure/azure-tenant-id.md)
-* [Azure login](azure/azure-login.md)
 * [Invoke the Azure API via HTTP endpoints](azure/rest-api.md)
+* [Azure login](azure/azure-login.md)
 
 ## azure-devops
 
@@ -26,18 +26,18 @@ Things I've learned, collected in [fabge/til](https://github.com/fabge/til).
 
 ## bash
 
-* [Replace variables](bash/replace-variables.md)
-* [Run bash script in specific directory](bash/cd-and-run-in-directory.md)
-* [Tmux](bash/tmux.md)
-* [Bash snippets](bash/bash-snippets.md)
-* [Escaping strings in Bash using `!:q`](bash/escape-string.md)
 * [Vim](bash/vim.md)
+* [Run bash script in specific directory](bash/cd-and-run-in-directory.md)
 * [`set -euo pipefail`](bash/set-euo-pipefail.md)
+* [Escaping strings in Bash using `!:q`](bash/escape-string.md)
+* [Bash snippets](bash/bash-snippets.md)
+* [Tmux](bash/tmux.md)
+* [Replace variables](bash/replace-variables.md)
 
 ## browser
 
-* [Make a website fully editable with document.designMode](browser/document-design-mode.md)
 * [Take screenshots right from the browser](browser/screenshots.md)
+* [Make a website fully editable with document.designMode](browser/document-design-mode.md)
 
 ## cloudflare
 
@@ -54,15 +54,15 @@ Things I've learned, collected in [fabge/til](https://github.com/fabge/til).
 
 ## git
 
-* [Reference commits using the commit message](git/reference-by-commit-message.md)
-* [Using Multiple SSH Keys](git/multiple-ssh-keys.md)
 * [fatal: Need to specify how to reconcile divergent branches](git/reconcile-divergent-branches.md)
 * [Write proper commit messages](git/commit-messages.md)
+* [Reference commits using the commit message](git/reference-by-commit-message.md)
+* [Using Multiple SSH Keys](git/multiple-ssh-keys.md)
 
 ## github
 
-* [Skip CI](github/skip-ci.md)
 * [Commit a file if it changed](github/commit-if-file-changed.md)
+* [Skip CI](github/skip-ci.md)
 * [Download latest release](github/download-latest-release.md)
 
 ## img
@@ -71,10 +71,10 @@ Things I've learned, collected in [fabge/til](https://github.com/fabge/til).
 
 ## javascript
 
-* [Write Javascript/Node in a notebook](javascript/javascript-in-notebook.md)
-* [Run async function on top level](javascript/async-top-level.md)
-* [Pythonic Javascript](javascript/pythonic-javascript.md)
 * [Print current year](javascript/print-current-year.md)
+* [Write Javascript/Node in a notebook](javascript/javascript-in-notebook.md)
+* [Pythonic Javascript](javascript/pythonic-javascript.md)
+* [Run async function on top level](javascript/async-top-level.md)
 
 ## json
 
@@ -99,16 +99,16 @@ Things I've learned, collected in [fabge/til](https://github.com/fabge/til).
 ## python
 
 * [Datetime formats](python/datetime-formats.md)
-* [pdb interact command](python/pdb-interact.md)
-* [Align string output with f-strings](python/align-string-output.md)
-* [Install different Python versions](python/install-python-versions.md)
-* [Running async functions](python/asyncio.md)
-* [nbdev](python/nbdev.md)
 * [Pandas](python/pandas.md)
-* [Walrus Operator](python/walrus-operator.md)
+* [nbdev](python/nbdev.md)
 * [Parallel HTTP requests in Python](python/parallel-http-requests.md)
-* [Virtual environment setup](python/virtual-environment-setup.md)
+* [pdb interact command](python/pdb-interact.md)
 * [Django](python/django.md)
+* [Align string output with f-strings](python/align-string-output.md)
+* [Walrus Operator](python/walrus-operator.md)
+* [Install different Python versions](python/install-python-versions.md)
+* [Virtual environment setup](python/virtual-environment-setup.md)
+* [Running async functions](python/asyncio.md)
 
 ## regex
 
