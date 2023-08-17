@@ -33,6 +33,10 @@ urlpatterns = [
 ```
 
 ```html
+{% load static %}
+
+<link rel="stylesheet" href="{% static 'style.css' %}">
+
 <li><a href="{% url 'detail' question.id %}">{{ question.question_text }}</a></li>
 ```
 
