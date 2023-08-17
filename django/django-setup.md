@@ -2,6 +2,8 @@
 
 Most basic setup, without database.
 
+{% raw %}
+
 ```bash
 django-admin startproject main
 cd main
@@ -37,3 +39,5 @@ urlpatterns = [
 ```bash
 python manage.py runserver
 ```
+
+{% endraw %}
