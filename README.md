@@ -2,23 +2,24 @@ Things I've learned, collected in [fabge/til](https://github.com/fabge/til).
 
 ## aws
 
-* [Useful `aws` snippets](aws/aws-snippets.md)
-* [DynamoDB Global Secondary Indexes](aws/dynamo-global-secondary-indexes.md)
+* [DynamoDB table scan](aws/dynamo-scan.md)
 * [CloudTrail](aws/cloudtrail.md)
 * [Have pretty URLs when using S3 and CloudFront](aws/s3-cloudfront-pretty-urls.md)
-* [Assume a role across AWS accounts](aws/assume-cross-account-role.md)
-* [Pagination using AWS boto3](aws/pagination.md)
-* [Display EC2 instance costs per month](aws/instance-costs-per-month.md)
-* [DynamoDB table scan](aws/dynamo-scan.md)
-* [Search CloudWatch logs](aws/search-cloudwatch-logs.md)
-* [Reference AWS account](aws/reference-aws-account.md)
-* [Step Function Monitoring](aws/step-function-monitoring.md)
+* [Useful `aws` snippets](aws/aws-snippets.md)
+* [DynamoDB Global Secondary Indexes](aws/dynamo-global-secondary-indexes.md)
 * [Access AWS resources from Azure without credentials](aws/cross-cloud-access.md)
+* [Assume a role across AWS accounts](aws/assume-cross-account-role.md)
+* [Step Function Monitoring](aws/step-function-monitoring.md)
+* [Reference AWS account](aws/reference-aws-account.md)
+* [Display EC2 instance costs per month](aws/instance-costs-per-month.md)
+* [Pagination using AWS boto3](aws/pagination.md)
+* [Lambda logging](aws/lambda-logging.md)
+* [Search CloudWatch logs](aws/search-cloudwatch-logs.md)
 
 ## azure
 
-* [Invoke the Azure API via HTTP endpoints](azure/rest-api.md)
 * [Find Azure Tenant Id by Subscription Id](azure/azure-tenant-id.md)
+* [Invoke the Azure API via HTTP endpoints](azure/rest-api.md)
 * [Azure login](azure/azure-login.md)
 
 ## azure-devops
@@ -27,18 +28,18 @@ Things I've learned, collected in [fabge/til](https://github.com/fabge/til).
 
 ## bash
 
-* [Vim](bash/vim.md)
 * [Escaping strings in Bash using `!:q`](bash/escape-string.md)
-* [`set -euo pipefail`](bash/set-euo-pipefail.md)
-* [Replace variables](bash/replace-variables.md)
 * [Tmux](bash/tmux.md)
-* [Run bash script in specific directory](bash/cd-and-run-in-directory.md)
 * [Bash snippets](bash/bash-snippets.md)
+* [Run bash script in specific directory](bash/cd-and-run-in-directory.md)
+* [Replace variables](bash/replace-variables.md)
+* [Vim](bash/vim.md)
+* [`set -euo pipefail`](bash/set-euo-pipefail.md)
 
 ## browser
 
-* [Make a website fully editable with document.designMode](browser/document-design-mode.md)
 * [Take screenshots right from the browser](browser/screenshots.md)
+* [Make a website fully editable with document.designMode](browser/document-design-mode.md)
 
 ## cloudflare
 
@@ -50,21 +51,21 @@ Things I've learned, collected in [fabge/til](https://github.com/fabge/til).
 
 ## django
 
-* [Django setup tl;dr](django/django-setup.md)
 * [Safely Pass Data to JavaScript in a Django Template](django/safely-pass-data-to-javascript-in-a-django-template.md)
+* [Django setup tl;dr](django/django-setup.md)
 
 ## git
 
-* [Write proper commit messages](git/commit-messages.md)
 * [Using Multiple SSH Keys](git/multiple-ssh-keys.md)
-* [Reference commits using the commit message](git/reference-by-commit-message.md)
 * [fatal: Need to specify how to reconcile divergent branches](git/reconcile-divergent-branches.md)
+* [Reference commits using the commit message](git/reference-by-commit-message.md)
+* [Write proper commit messages](git/commit-messages.md)
 
 ## github
 
 * [Download latest release](github/download-latest-release.md)
-* [Commit a file if it changed](github/commit-if-file-changed.md)
 * [Skip CI](github/skip-ci.md)
+* [Commit a file if it changed](github/commit-if-file-changed.md)
 * [Debug GitHub Actions](github/debug-github-actions.md)
 
 ## img
@@ -74,8 +75,8 @@ Things I've learned, collected in [fabge/til](https://github.com/fabge/til).
 ## javascript
 
 * [Print current year](javascript/print-current-year.md)
-* [Write Javascript/Node in a notebook](javascript/javascript-in-notebook.md)
 * [Pythonic Javascript](javascript/pythonic-javascript.md)
+* [Write Javascript/Node in a notebook](javascript/javascript-in-notebook.md)
 * [Run async function on top level](javascript/async-top-level.md)
 
 ## json
@@ -100,17 +101,17 @@ Things I've learned, collected in [fabge/til](https://github.com/fabge/til).
 
 ## python
 
-* [Align string output with f-strings](python/align-string-output.md)
-* [Parallel HTTP requests in Python](python/parallel-http-requests.md)
-* [nbdev](python/nbdev.md)
-* [pdb interact command](python/pdb-interact.md)
-* [Install different Python versions](python/install-python-versions.md)
-* [Running async functions](python/asyncio.md)
-* [Virtual environment setup](python/virtual-environment-setup.md)
-* [Django](python/django.md)
-* [Datetime formats](python/datetime-formats.md)
-* [Walrus Operator](python/walrus-operator.md)
 * [Pandas](python/pandas.md)
+* [pdb interact command](python/pdb-interact.md)
+* [Parallel HTTP requests in Python](python/parallel-http-requests.md)
+* [Virtual environment setup](python/virtual-environment-setup.md)
+* [Align string output with f-strings](python/align-string-output.md)
+* [Django](python/django.md)
+* [Running async functions](python/asyncio.md)
+* [Walrus Operator](python/walrus-operator.md)
+* [Datetime formats](python/datetime-formats.md)
+* [Install different Python versions](python/install-python-versions.md)
+* [nbdev](python/nbdev.md)
 
 ## regex
 
