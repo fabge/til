@@ -6,7 +6,7 @@ Most basic setup, without database.
 
 ```bash
 django-admin startproject main
-cd main
+cd main/main
 touch views.py
 ```
 
@@ -18,7 +18,7 @@ def index(request):
     return render(request, 'index.html')
 
 def data(request, data_id):
-    return render(request, 'detail.html', {'data_id': data_id})
+    return render(request, 'data.html', {'data_id': data_id})
 ```
 
 ```python
@@ -28,7 +28,7 @@ from . import views
 
 urlpatterns = [
     path('', views.index, name='index'),
-    path('data/<int:data_id>/', views.detail, name='data'),
+    path('data/<int:data_id>/', views.data, name='data'),
 ]
 ```
 
