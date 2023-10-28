@@ -47,6 +47,7 @@ Things I've learned, collected in [fabge/til](https://github.com/fabge/til).
 
 ## css
 
+* [How to center](css/center.md)
 * [Border around every element using CSS selector](css/border.md)
 
 ## django
