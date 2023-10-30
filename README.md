@@ -106,6 +106,7 @@ Things I've learned, collected in [fabge/til](https://github.com/fabge/til).
 * [Running async functions](python/asyncio.md)
 * [Parallel HTTP requests in Python](python/parallel-http-requests.md)
 * [Virtual environment setup](python/virtual-environment-setup.md)
+* [defaultdict](python/defaultdict.md)
 * [Align string output with f-strings](python/align-string-output.md)
 * [Datetime formats](python/datetime-formats.md)
 * [Install different Python versions](python/install-python-versions.md)
