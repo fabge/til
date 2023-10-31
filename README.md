@@ -110,6 +110,7 @@ Things I've learned, collected in [fabge/til](https://github.com/fabge/til).
 * [Align string output with f-strings](python/align-string-output.md)
 * [Datetime formats](python/datetime-formats.md)
 * [Install different Python versions](python/install-python-versions.md)
+* [Jupyter notebook commands](python/jupyter.md)
 * [nbdev](python/nbdev.md)
 * [pdb interact command](python/pdb-interact.md)
 * [Walrus Operator](python/walrus-operator.md)
