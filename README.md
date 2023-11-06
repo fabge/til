@@ -3,6 +3,7 @@ Things I've learned, collected in [fabge/til](https://github.com/fabge/til).
 ## aws
 
 * [DynamoDB table scan](aws/dynamo-scan.md)
+* [AWS SigV4 using `curl`](aws/aws-sigv4.md)
 * [Access AWS resources from Azure without credentials](aws/cross-cloud-access.md)
 * [Have pretty URLs when using S3 and CloudFront](aws/s3-cloudfront-pretty-urls.md)
 * [CloudTrail](aws/cloudtrail.md)
