@@ -1,13 +1,14 @@
 # Django setup tl;dr
 
-Most basic setup, without database.
-
-{% raw %}
-
 ```bash
-django-admin startproject main
-cd main/main
-touch views.py
+django-admin startproject core
+mv core app
+cd app
+python manage.py startapp main
+touch main/urls.py
+mkdir static templates
+touch templates/base.html
+touch templates/index.html
 ```
 
 ```python
@@ -23,25 +24,39 @@ def data(request, data_id):
 
 ```python
 # main/urls.py
-from django.contrib import admin
 from django.urls import path
-from . import views
+from main import views
 
 urlpatterns = [
-    path('admin/', admin.site.urls),
     path('', views.index, name='index'),
     path('data/<int:data_id>/', views.data, name='data'),
 ]
 ```
 
 ```python
-# main/settings.py
+# core/urls.py
+from django.contrib import admin
+from django.urls import include, path
 
-TEMPLATES = [
-    {
-        'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [os.path.join(BASE_DIR,'templates')],
-        ...
+urlpatterns = [
+    path('admin/', admin.site.urls),
+    path('', include('main.urls')),
+]
+```
+
+```python
+# core/settings.py
+
+INSTALLED_APPS = [
+    'main.apps.MainConfig',
+    ...
+]
+
+TEMPLATES = [{
+    ...
+    'DIRS': [os.path.join(BASE_DIR,'templates')],
+    ...
+}]
 
 STATICFILES_DIRS = [
     BASE_DIR / "static",
@@ -50,13 +65,20 @@ STATICFILES_DIRS = [
 
 ```text
 /project/
-    |-- main/
+    |-- core/
         |-- __init__.py
         |-- asgi.py
         |-- settings.py
         |-- urls.py
-        |-- views.py
         |-- wsgi.py
+    |-- main/
+        |-- __init__.py
+        |-- admin.py
+        |-- apps.py
+        |-- models.py
+        |-- tests.py
+        |-- urls.py
+        |-- views.py
     |-- static/
         |-- input.css
         |-- output.css
@@ -68,15 +90,51 @@ STATICFILES_DIRS = [
 ```
 
 ```html
-{% load static %}
-
-<link rel="stylesheet" href="{% static 'style.css' %}">
-
-<li><a href="{% url 'detail' question.id %}">{{ question.question_text }}</a></li>
+<!-- templates/base.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% block title %}YOUR TITLE{% endblock %}</title>
+    {% load static tailwind_tags %}
+    {% tailwind_css %}
+    <script src="https://unpkg.com/htmx.org@1.9.6"></script>
+    {% block head %}{% endblock %}
+</head>
+<body>
+    <div>
+        <a href="{% url 'index' %}">YOUR INDEX</a>
+    </div>
+    {% block content %}{% endblock content %}
+</body>
+</html>
 ```
 
-```bash
-python manage.py runserver
+```html
+<!-- templates/index.html -->
+{% extends 'base.html' %}
+{% block title %}YOUR TITLE{% endblock %}
+{% block content %}
+    <div>
+        <a href="{% url 'data' 1 %}">YOUR DATA</a>
+    </div>
+{% endblock content %}
 ```
 
-{% endraw %}
+```html
+<!-- templates/data.html -->
+{% extends 'base.html' %}
+
+{% block content %}
+<h1>hello world</h1>
+{% endblock %}
+```
+
+```txt
+# requirements.txt
+Django==4.2.7
+django-tailwind[reload]==3.6.0
+```
+
+https://django-tailwind.readthedocs.io/en/latest/installation.html#installation
