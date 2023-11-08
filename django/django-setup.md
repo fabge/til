@@ -89,6 +89,8 @@ STATICFILES_DIRS = [
     |-- manage.py
 ```
 
+{% raw %}
+
 ```html
 <!-- templates/base.html -->
 <!DOCTYPE html>
@@ -130,6 +132,8 @@ STATICFILES_DIRS = [
 <h1>hello world</h1>
 {% endblock %}
 ```
+
+{% endraw %}
 
 ```txt
 # requirements.txt
