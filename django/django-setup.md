@@ -1,5 +1,7 @@
 # Django setup tl;dr
 
+## Basic
+
 ```bash
 django-admin startproject core
 mv core app
@@ -141,4 +143,10 @@ Django==4.2.7
 django-tailwind[reload]==3.6.0
 ```
 
+## Tailwind
+
 https://django-tailwind.readthedocs.io/en/latest/installation.html#installation
+
+## Jupyter notebook
+
+https://django-extensions.readthedocs.io/en/latest/installation_instructions.html
