@@ -111,6 +111,7 @@ Things I've learned, collected in [fabge/til](https://github.com/fabge/til).
 * [defaultdict](python/defaultdict.md)
 * [Align string output with f-strings](python/align-string-output.md)
 * [Walrus Operator](python/walrus-operator.md)
+* [pip install while developing](python/pip-install.md)
 * [Datetime formats](python/datetime-formats.md)
 * [Pandas](python/pandas.md)
 * [pdb interact command](python/pdb-interact.md)
