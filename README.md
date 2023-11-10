@@ -136,6 +136,6 @@ Things I've learned, collected in [fabge/til](https://github.com/fabge/til).
 
 ## vscode
 
-* [VSCode shortcuts](vscode/shortcuts.md)
-* [Vscode workspace settings](vscode/workspace-settings.md)
+* [VS Code shortcuts](vscode/shortcuts.md)
+* [VS Code workspace settings](vscode/workspace-settings.md)
 
