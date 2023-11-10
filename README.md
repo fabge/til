@@ -70,6 +70,10 @@ Things I've learned, collected in [fabge/til](https://github.com/fabge/til).
 * [Commit a file if it changed](github/commit-if-file-changed.md)
 * [Skip CI](github/skip-ci.md)
 
+## htmx
+
+* [Loading button](htmx/loading-button.md)
+
 ## img
 
 * [Shrink/reduce/compress image sizes](img/shrink-images.md)
