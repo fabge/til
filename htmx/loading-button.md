@@ -32,7 +32,7 @@ Solution:
 <div>
     <p id="response">The click me response will be displayed after this sentence. </p>
     <button class="btn"
-        hx-get="https://hub.dummyapis.com/delay?seconds=30"
+        hx-get="https://hub.dummyapis.com/delay?seconds=7"
         hx-swap="beforeend"
         hx-target="#response"
         hx-indicator="#loading"
