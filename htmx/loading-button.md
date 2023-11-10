@@ -27,8 +27,9 @@ Solution:
 1. Ignore additional button clicks while loading is in progress
 1. Consider changing the label to clarify what's happening
 
+```html
 <div>
-    <p id="response">The click me response will be displayed after this sentence.</p>
+    <p id="response">The click me response will be displayed after this sentence. </p>
     <button class="btn"
         hx-get="https://hub.dummyapis.com/delay?seconds=30"
         hx-swap="beforeend"
@@ -40,3 +41,5 @@ Solution:
         Click Me
     </button>
 </div>
+
+```

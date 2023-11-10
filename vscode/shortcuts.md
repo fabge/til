@@ -1,4 +1,4 @@
-# VSCode shortcuts
+# VS Code shortcuts
 
 ## Mac
 

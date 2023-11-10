@@ -1,4 +1,4 @@
-# Vscode workspace settings
+# VS Code workspace settings
 
 ## python.analysis.extraPaths
 
