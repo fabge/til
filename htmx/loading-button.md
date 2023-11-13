@@ -1,20 +1,3 @@
-<script src="https://unpkg.com/htmx.org@1.9.8"></script>
-<link href="https://cdn.jsdelivr.net/npm/daisyui@3.9.4/dist/full.css" rel="stylesheet" type="text/css" />
-<script src="https://cdn.tailwindcss.com"></script>
-<style>
-    .my-indicator {
-        display: none;
-    }
-
-    .htmx-request .my-indicator {
-        display: inline;
-    }
-
-    .htmx-request.my-indicator {
-        display: inline;
-    }
-</style>
-
 # Loading button
 
 Problem:
@@ -45,50 +28,4 @@ Solution:
 </div>
 ```
 
-<iframe src="debug.html" name="iframe_a" title="Iframe Example"></iframe>
-
-    <iframe srcdoc='
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <script src="https://unpkg.com/htmx.org@1.9.8"></script>
-    <link href="https://cdn.jsdelivr.net/npm/daisyui@3.9.4/dist/full.css" rel="stylesheet" type="text/css" />
-    <script src="https://cdn.tailwindcss.com"></script>
-    <style>
-        .my-indicator {
-            display: none;
-        }
-
-        .htmx-request .my-indicator {
-            display: inline;
-        }
-
-        .htmx-request.my-indicator {
-            display: inline;
-        }
-    </style>
-</head>
-
-<body>
-
-    <div>
-        <p id="response">The click me response will be displayed after this sentence.</p>
-        <button class="btn"
-            hx-get="https://hub.dummyapis.com/delay?seconds=30"
-            hx-swap="beforeend"
-            hx-target="#response"
-            hx-indicator="#loading"
-            hx-disabled-elt="this"
-        >
-            <span id="loading" class="loading loading-spinner my-indicator"></span>
-            Click Me
-        </button>
-    </div>
-</body>
-
-</html>
-'>
+<iframe src="./test.html" name="iframe_a" title="Iframe Example"></iframe>
