@@ -12,7 +12,7 @@ Solution:
 
 ## Example
 
-Click here for the full source code: [test.html](./test.html)
+Click here for the full source code: [loading-button.html](./loading-button.html)
 
 ```html
 <div>
@@ -30,4 +30,4 @@ Click here for the full source code: [test.html](./test.html)
 </div>
 ```
 
-<iframe src="./test.html" name="test.html" allowfullscreen></iframe>
+<iframe src="./loading-button.html" name="loading-button.html"></iframe>
