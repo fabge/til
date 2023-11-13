@@ -29,6 +29,7 @@ Solution:
 
 ## Example
 
+```html
 <div>
     <p id="response">The click me response will be displayed after this sentence. </p>
     <button class="btn"
@@ -42,3 +43,6 @@ Solution:
         Click Me
     </button>
 </div>
+```
+
+<iframe src="debug.html" name="iframe_a" title="Iframe Example"></iframe>
