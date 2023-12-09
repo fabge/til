@@ -9,8 +9,10 @@ cd app
 python manage.py startapp main
 touch main/urls.py
 mkdir static templates
+touch requirements.txt
 touch templates/base.html
 touch templates/index.html
+touch templates/data.html
 ```
 
 ```python
@@ -43,14 +45,25 @@ from django.urls import include, path
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', include('main.urls')),
+    path("__reload__/", include("django_browser_reload.urls")),
 ]
 ```
 
 ```python
 # core/settings.py
 
+INTERNAL_IPS = ['127.0.0.1']
+
 INSTALLED_APPS = [
     'main.apps.MainConfig',
+    ...
+    'tailwind',
+]
+
+MIDDLEWARE = [
+    ...
+    'whitenoise.middleware.WhiteNoiseMiddleware',
+    'django_browser_reload.middleware.BrowserReloadMiddleware',
     ...
 ]
 
@@ -60,9 +73,14 @@ TEMPLATES = [{
     ...
 }]
 
-STATICFILES_DIRS = [
-    BASE_DIR / "static",
-]
+STORAGES = {
+    'staticfiles': {
+        'BACKEND': 'whitenoise.storage.CompressedManifestStaticFilesStorage',
+    }
+}
+
+STATICFILES_DIRS = [os.path.join(BASE_DIR, 'static')]
+STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 ```
 
 ```text
@@ -139,13 +157,34 @@ STATICFILES_DIRS = [
 
 ```txt
 # requirements.txt
-Django==4.2.7
-django-tailwind[reload]==3.6.0
+Django==5.0
+django_browser_reload==1.12.1
+django-tailwind==3.6.0
 ```
 
-## Tailwind
+**tailwind**
 
 https://django-tailwind.readthedocs.io/en/latest/installation.html#installation
+
+```bash
+python manage.py tailwind init
+```
+
+```python
+# core/settings.py
+
+INSTALLED_APPS = [
+  ...
+  'theme',
+  'django_browser_reload',
+]
+
+TAILWIND_APP_NAME = 'theme'
+```
+
+```bash
+python manage.py migrate
+```
 
 ## Jupyter notebook
 
