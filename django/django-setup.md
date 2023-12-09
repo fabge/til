@@ -161,6 +161,7 @@ STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 Django==5.0
 django_browser_reload==1.12.1
 django-tailwind==3.6.0
+whitenoise==6.6.0
 ```
 
 **tailwind**
