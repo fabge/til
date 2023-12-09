@@ -59,6 +59,7 @@ INSTALLED_APPS = [
     ...
     'tailwind',
     'django_browser_reload',
+    'django_extensions',
 ]
 
 MIDDLEWARE = [
@@ -162,6 +163,7 @@ Django==5.0
 django_browser_reload==1.12.1
 django-tailwind==3.6.0
 whitenoise==6.6.0
+django-extensions==3.2.3
 ```
 
 **tailwind**
@@ -186,6 +188,14 @@ TAILWIND_APP_NAME = 'theme'
 ```bash
 python manage.py migrate
 ```
+
+**README.md**
+
+python manage.py runserver
+
+python manage.py tailwind start
+
+python manage.py shell_plus --notebook
 
 ## Jupyter notebook
 
