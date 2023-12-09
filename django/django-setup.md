@@ -58,6 +58,7 @@ INSTALLED_APPS = [
     'main.apps.MainConfig',
     ...
     'tailwind',
+    'django_browser_reload',
 ]
 
 MIDDLEWARE = [
@@ -176,7 +177,6 @@ python manage.py tailwind init
 INSTALLED_APPS = [
   ...
   'theme',
-  'django_browser_reload',
 ]
 
 TAILWIND_APP_NAME = 'theme'
