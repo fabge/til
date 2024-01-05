@@ -1,4 +1,4 @@
-# Squash commits
+# Squash/rebase commits
 
 To squash the last 4 commits into one:
 
