@@ -8,6 +8,7 @@ Things I've learned, collected in [fabge/til](https://github.com/fabge/til).
 * [Access AWS resources from Azure without credentials](aws/cross-cloud-access.md)
 * [DynamoDB table scan](aws/dynamo-scan.md)
 * [AWS SigV4 using `curl`](aws/aws-sigv4.md)
+* [CloudFormation default values](aws/cloudformation-default-value.md)
 * [Pagination using AWS boto3](aws/pagination.md)
 * [Reference AWS account](aws/reference-aws-account.md)
 * [DynamoDB Global Secondary Indexes](aws/dynamo-global-secondary-indexes.md)
