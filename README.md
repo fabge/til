@@ -37,6 +37,7 @@ Things I've learned, collected in [fabge/til](https://github.com/fabge/til).
 * [Replace variables](bash/replace-variables.md)
 * [Run bash script in specific directory](bash/cd-and-run-in-directory.md)
 * [`set -euo pipefail`](bash/set-euo-pipefail.md)
+* [Do some action when changing directory (cd)](bash/change-directory-actions.md)
 * [Vim](bash/vim.md)
 
 ## browser
