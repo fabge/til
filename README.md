@@ -145,5 +145,5 @@ Things I've learned, collected in [fabge/til](https://github.com/fabge/til).
 
 ## zsh
 
-* [or](zsh/goodies.md)
+* [or](zsh/shortcuts.md)
 
