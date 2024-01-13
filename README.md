@@ -37,7 +37,6 @@ Things I've learned, collected in [fabge/til](https://github.com/fabge/til).
 * [Replace variables](bash/replace-variables.md)
 * [Run bash script in specific directory](bash/cd-and-run-in-directory.md)
 * [`set -euo pipefail`](bash/set-euo-pipefail.md)
-* [or](bash/alias.md)
 * [Do some action when changing directory (cd)](bash/change-directory-actions.md)
 * [Vim](bash/vim.md)
 
@@ -143,4 +142,8 @@ Things I've learned, collected in [fabge/til](https://github.com/fabge/til).
 
 * [VS Code shortcuts](vscode/shortcuts.md)
 * [VS Code workspace settings](vscode/workspace-settings.md)
+
+## zsh
+
+* [or](zsh/goodies.md)
 
