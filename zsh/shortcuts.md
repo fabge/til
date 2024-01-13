@@ -1,6 +1,6 @@
-zsh goodies
+# zsh goodies
 
-Go up one directory
+## Go up one directory
 
 ```bash
 cd ..
@@ -8,7 +8,7 @@ cd ..
 ..
 ```
 
-Go up two directories
+## Go up two directories
 
 ```bash
 cd ../..
@@ -16,7 +16,7 @@ cd ../..
 ...
 ```
 
-Tab completion - also works for commands
+## Tab completion - also works for commands
 
 ```bash
 git # tab
@@ -26,9 +26,14 @@ git # tab
 >...
 ```
 
-Clear current screen
+## Clear current screen
 
 ```bash
 clear
-# or cmd + k
 ```
+
+or `cmd` + `k`
+
+## Search through history
+
+`ctrl` + `r` and type search term
