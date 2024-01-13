@@ -16,6 +16,14 @@ cd ../..
 ...
 ```
 
+## Go to last directory
+
+```bash
+cd -
+# or
+-
+```
+
 ## Tab completion - also works for commands
 
 ```bash
