@@ -4,6 +4,11 @@ LLMs like ChatGPT give us a simple user interface, which makes it seemingly easy
 
 ---
 
+One of my favorite prompts is, **"Do that better"** - because you can just say that! And then it tries to do it better.
+    - https://simonw.substack.com/p/talking-about-open-source-llms-on
+
+---
+
 > Sometimes you will bang your head on a prompt trying to get the model to output reliable results, but, no matter what you do, it just won’t work. This will frequently happen when the bot’s final output requires intermediate thinking, but you ask the bot only for the output and nothing else. [...]
 **you simply have to ask the bot to think step-by-step.** - [https://github.com/brexhq/prompt-engineering](https://github.com/brexhq/prompt-engineering)
 
