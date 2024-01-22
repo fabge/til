@@ -61,6 +61,7 @@ Things I've learned, collected in [fabge/til](https://github.com/fabge/til).
 
 ## git
 
+* [Revert commit](git/revert-commit.md)
 * [Reference commits using the commit message](git/reference-by-commit-message.md)
 * [fatal: Need to specify how to reconcile divergent branches](git/reconcile-divergent-branches.md)
 * [Squash/rebase commits](git/squash-rebase-commits.md)
