@@ -1,6 +1,6 @@
 # Using `repr`
 
-The convention for `__repr__`` is to return a string that, when fed to eval(), will recreate the underlying object (from https://github.com/SumanthRH/python-mastery/blob/main/learnings.md).
+The convention for `__repr__` is to return a string that, when fed to eval(), will recreate the underlying object (from https://github.com/SumanthRH/python-mastery/blob/main/learnings.md).
 
 ```python
 class Car:
