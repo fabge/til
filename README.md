@@ -123,6 +123,7 @@ Things I've learned, collected in [fabge/til](https://github.com/fabge/til).
 
 * [Using `repr`](python/repr.md)
 * [Datetime formats](python/datetime-formats.md)
+* [Scope of variables](python/variables.md)
 * [pdb interact command](python/pdb-interact.md)
 * [defaultdict](python/defaultdict.md)
 * [Align string output with f-strings](python/align-string-output.md)
@@ -136,6 +137,7 @@ Things I've learned, collected in [fabge/til](https://github.com/fabge/til).
 * [Jupyter notebook commands](python/jupyter.md)
 * [nbdev](python/nbdev.md)
 * [Parallel HTTP requests in Python](python/parallel-http-requests.md)
+* [Functions](python/functions.md)
 
 ## regex
 
