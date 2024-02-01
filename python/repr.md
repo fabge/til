@@ -7,7 +7,7 @@ Objects have two string representations:
 - The convention for `__repr__` is to return a string that, when fed to `eval()`, will recreate the underlying object.
 - print(obj) uses `__str__`
 
-(from https://github.com/SumanthRH/python-mastery/blob/main/learnings.md).
+(from https://github.com/SumanthRH/python-mastery/blob/main/learnings.md)
 
 Example for `__repr__`:
 
