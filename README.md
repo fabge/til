@@ -128,6 +128,7 @@ Things I've learned, collected in [fabge/til](https://github.com/fabge/til).
 * [Pandas](python/pandas.md)
 * [Walrus Operator](python/walrus-operator.md)
 * [Install different Python versions](python/install-python-versions.md)
+* [Using `lambda`](python/lambda.md)
 * [Jupyter notebook commands](python/jupyter.md)
 * [nbdev](python/nbdev.md)
 * [Parallel HTTP requests in Python](python/parallel-http-requests.md)
