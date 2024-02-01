@@ -111,6 +111,10 @@ Things I've learned, collected in [fabge/til](https://github.com/fabge/til).
 
 * [Idempotence](misc/idempotence.md)
 
+## programming
+
+* [Exceptions](programming/exceptions.md)
+
 ## pytest
 
 * [How to cheat at unit tests](pytest/cheating-at-unit-tests.md)
