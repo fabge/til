@@ -135,6 +135,7 @@ Things I've learned, collected in [fabge/til](https://github.com/fabge/til).
 * [Install different Python versions](python/install-python-versions.md)
 * [Using `lambda`](python/lambda.md)
 * [Jupyter notebook commands](python/jupyter.md)
+* [Generators](python/generators.md)
 * [nbdev](python/nbdev.md)
 * [Parallel HTTP requests in Python](python/parallel-http-requests.md)
 * [Functions](python/functions.md)
