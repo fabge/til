@@ -2,6 +2,8 @@
 
 Lambdas can be used to alter function args similar to `functools.partial`.
 
+(from https://github.com/SumanthRH/python-mastery/blob/main/learnings.md)
+
 ```python
 import functools
 
