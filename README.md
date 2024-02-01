@@ -128,6 +128,7 @@ Things I've learned, collected in [fabge/til](https://github.com/fabge/til).
 * [defaultdict](python/defaultdict.md)
 * [Align string output with f-strings](python/align-string-output.md)
 * [Virtual environment setup](python/virtual-environment-setup.md)
+* [Modules and Packages](python/modules-and-packages.md)
 * [Running async functions](python/asyncio.md)
 * [pip install while developing](python/pip-install.md)
 * [Pandas](python/pandas.md)
