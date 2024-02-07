@@ -2,20 +2,20 @@ Things I've learned, collected in [fabge/til](https://github.com/fabge/til).
 
 ## aws
 
-* [CloudFormation default values](aws/cloudformation-default-value.md)
-* [DynamoDB table scan](aws/dynamo-scan.md)
-* [Assume a role across AWS accounts](aws/assume-cross-account-role.md)
-* [Lambda logging](aws/lambda-logging.md)
 * [Display EC2 instance costs per month](aws/instance-costs-per-month.md)
-* [Useful `aws` snippets](aws/aws-snippets.md)
-* [Access AWS resources from Azure without credentials](aws/cross-cloud-access.md)
 * [Step Function Monitoring](aws/step-function-monitoring.md)
+* [AWS SigV4 using `curl`](aws/aws-sigv4.md)
+* [Lambda logging](aws/lambda-logging.md)
+* [CloudFormation default values](aws/cloudformation-default-value.md)
+* [Assume a role across AWS accounts](aws/assume-cross-account-role.md)
+* [Access AWS resources from Azure without credentials](aws/cross-cloud-access.md)
 * [CloudTrail](aws/cloudtrail.md)
-* [DynamoDB Global Secondary Indexes](aws/dynamo-global-secondary-indexes.md)
+* [Pagination using AWS boto3](aws/pagination.md)
 * [Search CloudWatch logs](aws/search-cloudwatch-logs.md)
 * [Have pretty URLs when using S3 and CloudFront](aws/s3-cloudfront-pretty-urls.md)
-* [AWS SigV4 using `curl`](aws/aws-sigv4.md)
-* [Pagination using AWS boto3](aws/pagination.md)
+* [DynamoDB table scan](aws/dynamo-scan.md)
+* [DynamoDB Global Secondary Indexes](aws/dynamo-global-secondary-indexes.md)
+* [Useful `aws` snippets](aws/aws-snippets.md)
 * [Reference AWS account](aws/reference-aws-account.md)
 
 ## azure
@@ -26,24 +26,24 @@ Things I've learned, collected in [fabge/til](https://github.com/fabge/til).
 
 ## azure-devops
 
-* [Change workingDirectory for AWSShellScript](azure-devops/change-working-directory-aws-shell-script.md)
 * [Remove Azure DevOps Retention Leases](azure-devops/remove-retention-leases.md)
+* [Change workingDirectory for AWSShellScript](azure-devops/change-working-directory-aws-shell-script.md)
 
 ## bash
 
-* [Bash snippets](bash/bash-snippets.md)
+* [Tmux](bash/tmux.md)
+* [Escaping strings in Bash using `!:q`](bash/escape-string.md)
+* [`set -euo pipefail`](bash/set-euo-pipefail.md)
 * [Do some action when changing directory (cd)](bash/change-directory-actions.md)
 * [Run bash script in specific directory](bash/cd-and-run-in-directory.md)
-* [Escaping strings in Bash using `!:q`](bash/escape-string.md)
 * [Vim](bash/vim.md)
 * [Replace variables](bash/replace-variables.md)
-* [`set -euo pipefail`](bash/set-euo-pipefail.md)
-* [Tmux](bash/tmux.md)
+* [Bash snippets](bash/bash-snippets.md)
 
 ## browser
 
-* [Make a website fully editable with document.designMode](browser/document-design-mode.md)
 * [Take screenshots right from the browser](browser/screenshots.md)
+* [Make a website fully editable with document.designMode](browser/document-design-mode.md)
 
 ## cloudflare
 
@@ -51,8 +51,8 @@ Things I've learned, collected in [fabge/til](https://github.com/fabge/til).
 
 ## css
 
-* [How to center](css/center.md)
 * [Border around every element using CSS selector](css/border.md)
+* [How to center](css/center.md)
 
 ## django
 
@@ -61,12 +61,12 @@ Things I've learned, collected in [fabge/til](https://github.com/fabge/til).
 
 ## git
 
+* [Squash/rebase commits](git/squash-rebase-commits.md)
 * [Write proper commit messages](git/commit-messages.md)
+* [Revert commit](git/revert-commit.md)
 * [Using Multiple SSH Keys](git/multiple-ssh-keys.md)
 * [Reference commits using the commit message](git/reference-by-commit-message.md)
-* [Revert commit](git/revert-commit.md)
 * [fatal: Need to specify how to reconcile divergent branches](git/reconcile-divergent-branches.md)
-* [Squash/rebase commits](git/squash-rebase-commits.md)
 
 ## github
 
@@ -89,11 +89,11 @@ Things I've learned, collected in [fabge/til](https://github.com/fabge/til).
 
 ## javascript
 
-* [Pythonic Javascript](javascript/pythonic-javascript.md)
+* [Print current year](javascript/print-current-year.md)
 * [Run async function on top level](javascript/async-top-level.md)
 * [Subsetting/slicing lists](javascript/list-subset.md)
-* [Print current year](javascript/print-current-year.md)
 * [Write Javascript/Node in a notebook](javascript/javascript-in-notebook.md)
+* [Pythonic Javascript](javascript/pythonic-javascript.md)
 
 ## json
 
@@ -122,24 +122,24 @@ Things I've learned, collected in [fabge/til](https://github.com/fabge/til).
 ## python
 
 * [Using `repr`](python/repr.md)
-* [Datetime formats](python/datetime-formats.md)
-* [Scope of variables](python/variables.md)
-* [pdb interact command](python/pdb-interact.md)
-* [defaultdict](python/defaultdict.md)
-* [Align string output with f-strings](python/align-string-output.md)
-* [Virtual environment setup](python/virtual-environment-setup.md)
-* [Modules and Packages](python/modules-and-packages.md)
-* [Running async functions](python/asyncio.md)
-* [pip install while developing](python/pip-install.md)
-* [Pandas](python/pandas.md)
 * [Walrus Operator](python/walrus-operator.md)
+* [Pandas](python/pandas.md)
+* [nbdev](python/nbdev.md)
+* [Generators](python/generators.md)
 * [Install different Python versions](python/install-python-versions.md)
 * [Using `lambda`](python/lambda.md)
+* [Modules and Packages](python/modules-and-packages.md)
 * [Jupyter notebook commands](python/jupyter.md)
-* [Generators](python/generators.md)
-* [nbdev](python/nbdev.md)
+* [Align string output with f-strings](python/align-string-output.md)
+* [defaultdict](python/defaultdict.md)
+* [async](python/async.md)
+* [Scope of variables](python/variables.md)
+* [Datetime formats](python/datetime-formats.md)
+* [pip install while developing](python/pip-install.md)
 * [Parallel HTTP requests in Python](python/parallel-http-requests.md)
 * [Functions](python/functions.md)
+* [Virtual environment setup](python/virtual-environment-setup.md)
+* [pdb interact command](python/pdb-interact.md)
 
 ## regex
 
@@ -155,8 +155,8 @@ Things I've learned, collected in [fabge/til](https://github.com/fabge/til).
 
 ## vscode
 
-* [VS Code workspace settings](vscode/workspace-settings.md)
 * [VS Code shortcuts](vscode/shortcuts.md)
+* [VS Code workspace settings](vscode/workspace-settings.md)
 
 ## zsh
 
