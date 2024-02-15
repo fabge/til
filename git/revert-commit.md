@@ -8,4 +8,13 @@ git revert <commit hash>
 # git push
 ```
 
-This also works for Pull Requests.
+If you want to revert multiple commits, you can use the following:
+
+```bash
+# git checkout -b revert-this
+git revert --no-commit <first commit hash>
+git revert --no-commit <second commit hash>
+git revert --no-commit <third commit hash>
+git commit -m "revert"
+# git push
+```
