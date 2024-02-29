@@ -122,6 +122,7 @@ Things I've learned, collected in [fabge/til](https://github.com/fabge/til).
 
 ## python
 
+* [Python debugger](python/debugger.md)
 * [Parallel HTTP requests in Python](python/parallel-http-requests.md)
 * [Install different Python versions](python/install-python-versions.md)
 * [pdb interact command](python/pdb-interact.md)
