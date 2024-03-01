@@ -14,8 +14,13 @@ Then force push to the remote branch:
 git push -f
 ```
 
-If you just want to change the last commit and e.g. add a file to it:
+If you just want to change the last commit and e.g. add a file to it you can use the shortcut:
 
 ```bash
 git commit --amend --no-edit
+
+# instead of
+
+git rebase -i HEAD~2
+# ...
 ```
