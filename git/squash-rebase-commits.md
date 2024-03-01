@@ -13,3 +13,9 @@ Then force push to the remote branch:
 ```bash
 git push -f
 ```
+
+If you just want to change the last commit and e.g. add a file to it:
+
+```bash
+git commit --amend --no-edit
+```

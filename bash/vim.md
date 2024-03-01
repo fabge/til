@@ -2,6 +2,11 @@
 
 ## Modes
 
+- normal mode
+- insert mode
+- command mode
+- visual mode
+
 `i` -> insert mode  
 `o` -> open a new line underneath in edit mode  
 `shift` + `o` -> open a new line above in edit mode
