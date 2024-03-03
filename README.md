@@ -102,6 +102,7 @@ Things I've learned, collected in [fabge/til](https://github.com/fabge/til).
 
 ## llm
 
+* [Summarize websites](llm/summarize-websites.md)
 * [Prompt engineering](llm/prompt-engineering.md)
 
 ## macos
