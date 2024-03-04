@@ -1,11 +1,13 @@
 # Vim
 
+[operator] [number] motion
+
 ## Modes
 
-- normal mode
-- insert mode
-- command mode
-- visual mode
+- normal mode (`esc`)
+- insert mode (`i`)
+- command mode (`:`)
+- visual mode (`v`)
 
 `i` -> insert mode  
 `o` -> open a new line underneath in edit mode  
@@ -18,32 +20,48 @@
 `/` -> different parts/parameters of ex commands are separated by a slash
 `:sp` -> split window horizontally
 `ctrl` + `w`, `↓` -> switches panes
+`ctrl` + `o` -> go to last cursor position
+`ctrl` + `i` -> go to next cursor position
+`%` -> go to matching parenthesis
+`v` + `motion` + `:w test.txt` -> save selection to a test.txt file
 
 ## Motions
 
 `hjkl` -> correspond to `←↑↓→`
 
-`w` -> go to next word
+`w` -> to next word
 
-`b` -> go back a word
+`b` -> back a word
 
-`gg` -> go to the start of a file
+`e` -> to the end of the current word
 
-`shift` + `g` -> go to end of a file
+`$` -> to the end of the line
 
-`}` -> go to the end of the paragraph (meaning next empty line)
+`0` -> to the start of the line
 
-## Commands
+`gg` -> to the start of a file
+
+`shift` + `g` -> to end of a file
+
+`}` -> to the end of the paragraph (meaning next empty line)
+
+## Operators
 
 `u` -> undo
+
+`U` -> undo all changes on a line
 
 `y` -> copy (yank)
 
 `x` -> delete character
 
-`p` -> paste
+`p` -> put (paste) recently copied or deleted text
 
-`c` -> change
+`r` -> replace, followed by the character to replace the current one
+
+`c` -> change and go into insert mode, followed by the motion, e.g.
+    `c$` -> change to the end of the line
+    `cw` -> change word
 
 `~` -> changes case (upper to lower and vice versa)
 
@@ -58,6 +76,8 @@
 `g` -> grep
 
 `s` -> search and replace
+
+`485G` -> go to line 485
 
 ## Combinations
 
@@ -74,3 +94,9 @@
 `%g/^-/d` -> search for all lines starting with a `-` and delete them  
 `%g/^\s*$/d` -> search for all lines starting with one or more emtpy spaces followed by the end of the line and delete them  
 `%s/ / - /` -> search for all lines with an empty space and replace it with ` - `, applies by default only to the first time it finds it  
+
+`:s/thee/the` -> search for `thee` and replace it with `the`  
+`:s/thee/the/g` -> search for `thee` and replace it with `the` globally
+`:#,#s/old/new/g` -> search for `old` and replace it with `new` in the range of lines `#` to `#`
+`%s/old/new/gc` -> search for `old` and replace it with `new` globally with confirmation
+`:!ls` -> run a shell command
