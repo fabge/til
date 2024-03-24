@@ -24,6 +24,7 @@
 `ctrl` + `i` -> go to next cursor position
 `%` -> go to matching parenthesis
 `v` + `motion` + `:w test.txt` -> save selection to a test.txt file
+`zz` -> center line
 
 ## Motions
 
