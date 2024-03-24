@@ -64,6 +64,7 @@ Things I've learned, collected in [fabge/til](https://github.com/fabge/til).
 
 * [fatal: Need to specify how to reconcile divergent branches](git/reconcile-divergent-branches.md)
 * [Squash/rebase commits](git/squash-rebase-commits.md)
+* [Rename branch](git/rename-branch.md)
 * [Using Multiple SSH Keys](git/multiple-ssh-keys.md)
 * [Revert commit](git/revert-commit.md)
 * [Write proper commit messages](git/commit-messages.md)
