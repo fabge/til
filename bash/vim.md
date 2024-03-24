@@ -10,21 +10,36 @@
 - visual mode (`v`)
 
 `i` -> insert mode  
+`I` -> insert at the start of the line
 `o` -> open a new line underneath in edit mode  
 `shift` + `o` -> open a new line above in edit mode
-
+`a` -> append after the cursor  
+`A` -> append at the end of the line
+`r` -> replace a single character
+`R` -> replace mode
+`*` -> go to the next occurrence of the word under the cursor
+`#` -> go to the previous occurrence of the word under the cursor
 `esc` -> switch from insert mode to command mode
 
+`.` -> repeat the last command
 `:` -> switch to ex mode  
 `:wq` -> write and quit  
 `/` -> different parts/parameters of ex commands are separated by a slash
 `:sp` -> split window horizontally
 `ctrl` + `w`, `↓` -> switches panes
-`ctrl` + `o` -> go to last cursor position
-`ctrl` + `i` -> go to next cursor position
 `%` -> go to matching parenthesis
+`f` + `char` -> find/jump to the next occurrence of the character
+
+`ctrl` + `o` -> go to last cursor position/go back to where we were
+`ctrl` + `i` -> go to next cursor position/go forward to where we were
+
+`!ls` -> run a shell command, in this case `ls`
 `v` + `motion` + `:w test.txt` -> save selection to a test.txt file
 `zz` -> center line
+`r` + `!ls` or `text.txt` -> replace the current character with the output of the command or the content of the file
+`ctrl` + `g` -> show file name, line number/position and percentage of the file
+`d` + `i` + `"` -> delete inside the quotes
+`d` + `i` + `(` -> delete inside the parenthesis
 
 ## Motions
 
@@ -53,6 +68,7 @@
 `U` -> undo all changes on a line
 
 `y` -> copy (yank)
+`yw` -> copy a word
 
 `x` -> delete character
 
@@ -101,3 +117,6 @@
 `:#,#s/old/new/g` -> search for `old` and replace it with `new` in the range of lines `#` to `#`
 `%s/old/new/gc` -> search for `old` and replace it with `new` globally with confirmation
 `:!ls` -> run a shell command
+
+`ctrl` + `n` -> next element
+`ctrl` + `p` -> previous element
