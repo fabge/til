@@ -24,6 +24,7 @@ Things I've learned, collected in [fabge/til](https://github.com/fabge/til).
 * [Invoke the Azure API via HTTP endpoints](azure/rest-api.md)
 * [Azure login](azure/azure-login.md)
 * [Entra ID](azure/permissions.md)
+* [Enterprise application](azure/enterprise-application.md)
 
 ## azure-devops
 
