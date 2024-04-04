@@ -38,3 +38,8 @@ urls = [f'https://pokeapi.co/api/v2/pokemon/{number}' for number in range(1,151)
 
 parallel(get_pokemon, urls, n_workers=8)
 ```
+
+relevant articles:
+
+- https://isaac-flath.github.io/fastblog/fastcore/fastai/2021/04/01/PythonConcurrency.html
+- https://python.hamel.dev/concurrency/

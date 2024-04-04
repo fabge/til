@@ -29,6 +29,7 @@
 `ctrl` + `w`, `↓` -> switches panes
 `%` -> go to matching parenthesis
 `f` + `char` -> find/jump to the next occurrence of the character
+`ctrl` + `w`, `j` -> switch panes
 
 `ctrl` + `o` -> go to last cursor position/go back to where we were
 `ctrl` + `i` -> go to next cursor position/go forward to where we were
@@ -120,3 +121,16 @@
 
 `ctrl` + `n` -> next element
 `ctrl` + `p` -> previous element
+
+## example video captions with timestamps
+
+1. remove additional information, just keep timestamps with caption
+    a) delete everything up to the next digit
+    `d/^\d` -> delete everything up to the next digit, then press `.` to repeat the command
+
+    b) delete everything with a hyphen
+    `%g/^-/d` -> search for all lines starting with a `-` and delete them
+    `%g/^\s*$/d` -> search for all lines starting with one or more emtpy spaces followed by the end of the line and delete them
+
+2. insert a hyphen between timestamp and caption
+    `%s/ / - /` -> search for all lines with an empty space and replace it with ` - `, applies by default only to the first time it finds it
