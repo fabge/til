@@ -35,6 +35,7 @@ Things I've learned, collected in [fabge/til](https://github.com/fabge/til).
 * [Bash snippets](bash/bash-snippets.md)
 * [Run bash script in specific directory](bash/cd-and-run-in-directory.md)
 * [Do some action when changing directory (cd)](bash/change-directory-actions.md)
+* [nvim](bash/nvim.md)
 * [Replace variables](bash/replace-variables.md)
 * [Escaping strings in Bash using `!:q`](bash/escape-string.md)
 * [`set -euo pipefail`](bash/set-euo-pipefail.md)
