@@ -158,6 +158,10 @@ Things I've learned, collected in [fabge/til](https://github.com/fabge/til).
 
 * [Setup SSH keys via ssh-copy-id](ssh/setup-ssh.md)
 
+## terraform
+
+* [Loop files](terraform/loop-files.md)
+
 ## ubuntu
 
 * [Linux file system](ubuntu/linux-file-system.md)
