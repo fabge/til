@@ -7,7 +7,7 @@ Here is an example: Sometimes I found it useful to have additional error logging
 ```python
 import requests
 
-def new_raise_for_status(self):
+def custom_raise_for_status(self):
     try:
         self.old_raise_for_status()
     except requests.exceptions.HTTPError as e:
@@ -16,33 +16,10 @@ def new_raise_for_status(self):
         raise
 
 requests.models.Response.old_raise_for_status = requests.models.Response.raise_for_status
-requests.models.Response.raise_for_status = new_raise_for_status
+requests.models.Response.raise_for_status = custom_raise_for_status
 
 response = requests.get('https://example.com/12341234')
 response.raise_for_status()
-```
-
-slightly different:
-
-```python
-from requests import HTTPError, Response
-import requests
-
-original_raise_for_status = Response.raise_for_status
-
-def custom_raise_for_status(self) -> None:
-    try:
-        original_raise_for_status(self)
-    except HTTPError as err:
-        if err.response.text:
-            print(err.response.text)
-        raise
-
-Response.raise_for_status = custom_raise_for_status
-
-r = requests.post('https://example.com/12341234')
-
-r.raise_for_status()
 ```
 
 or you can use a decorator:
@@ -50,18 +27,36 @@ or you can use a decorator:
 ```python
 import requests
 
-def log_errors(func):
-    def wrapper(*args, **kwargs):
+def patched_raise_for_status(func):
+    def wrapper(self):
         try:
-            return func(*args, **kwargs)
+            return func(self)
         except requests.exceptions.HTTPError as e:
             if err.response.text:
                 print(err.response.text)
             raise
     return wrapper
 
-requests.models.Response.raise_for_status = log_errors(requests.models.Response.raise_for_status)
+requests.models.Response.raise_for_status = patched_raise_for_status(requests.models.Response.raise_for_status)
 
 response = requests.get('https://example.com/12341234')
 response.raise_for_status()
+```
+
+... with @wraps, keeping the original function signature, such as the original function's metadata, like docstring, module information, etc.:
+
+```python
+from functools import wraps
+import requests
+
+def patched_raise_for_status(func):
+    @wraps(func)
+    def wrapper(self):
+        try:
+            return func(self)
+        except requests.exceptions.HTTPError as e:
+            if err.response.text:
+                print(err.response.text)
+            raise
+    return wrapper
 ```
