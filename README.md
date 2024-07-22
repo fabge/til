@@ -20,6 +20,7 @@ Things I've learned, collected in [fabge/til](https://github.com/fabge/til).
 
 ## azure
 
+* [Azure functions](azure/azure-functions.md)
 * [Find permissions in RBAC roles easily](azure/permissions-in-rbac-roles.md)
 * [Invoke the Azure API via HTTP endpoints](azure/rest-api.md)
 * [Enterprise application](azure/enterprise-application.md)
@@ -146,6 +147,7 @@ Things I've learned, collected in [fabge/til](https://github.com/fabge/til).
 * [Using `lambda`](python/lambda.md)
 * [defaultdict](python/defaultdict.md)
 * [Install different Python versions](python/install-python-versions.md)
+* [Monkey Patching](python/monkey-patching.md)
 * [Pandas](python/pandas.md)
 * [Datetime formats](python/datetime-formats.md)
 * [pip install while developing](python/pip-install.md)
