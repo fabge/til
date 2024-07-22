@@ -7,7 +7,7 @@ Here is an example: Sometimes I found it useful to have additional error logging
 ```python
 import requests
 
-def custom_raise_for_status(self):
+def patched_raise_for_status(self):
     try:
         self.old_raise_for_status()
     except requests.exceptions.HTTPError as e:
@@ -16,7 +16,7 @@ def custom_raise_for_status(self):
         raise
 
 requests.models.Response.old_raise_for_status = requests.models.Response.raise_for_status
-requests.models.Response.raise_for_status = custom_raise_for_status
+requests.models.Response.raise_for_status = patched_raise_for_status
 
 response = requests.get('https://example.com/12341234')
 response.raise_for_status()
