@@ -33,11 +33,16 @@ If you choose to optionally define your Consumption plan, you must set the `serv
 So a minimal end-to-end function app definition in a Bicep template can look like this:
 
 ```bicep
+param functionAppName string = 'func-${uniqueString(resourceGroup().id)}'
+param storageAccountName string = '${uniqueString(resourceGroup().id)}azfunctions'
+
+var applicationInsightsName = functionAppName
+
 resource storageAccount 'Microsoft.Storage/storageAccounts@2022-05-01' = {
   name: storageAccountName
   location: location
   sku: {
-    name: storageAccountType
+    name: 'Standard_LRS'
   }
   kind: 'Storage'
 }
