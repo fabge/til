@@ -25,6 +25,7 @@ Things I've learned, collected in [fabge/til](https://github.com/fabge/til).
 * [Find Azure Tenant Id by Subscription Id](azure/azure-tenant-id.md)
 * [Enterprise application](azure/enterprise-application.md)
 * [Azure login](azure/azure-login.md)
+* [az-104](azure/az-104.md)
 * [Find permissions in RBAC roles easily](azure/permissions-in-rbac-roles.md)
 * [Invoke the Azure API via HTTP endpoints](azure/rest-api.md)
 * [Azure functions](azure/azure-functions.md)
