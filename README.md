@@ -2,50 +2,50 @@ Things I've learned, collected in [fabge/til](https://github.com/fabge/til).
 
 ## aws
 
-* [Useful `aws` snippets](aws/aws-snippets.md)
-* [AWS SigV4 using `curl`](aws/aws-sigv4.md)
-* [Access AWS resources from Azure without credentials](aws/cross-cloud-access.md)
-* [Lambda logging](aws/lambda-logging.md)
 * [CloudTrail](aws/cloudtrail.md)
-* [Display EC2 instance costs per month](aws/instance-costs-per-month.md)
 * [DynamoDB Global Secondary Indexes](aws/dynamo-global-secondary-indexes.md)
-* [Pagination using AWS boto3](aws/pagination.md)
+* [Access AWS resources from Azure without credentials](aws/cross-cloud-access.md)
+* [CloudFormation default values](aws/cloudformation-default-value.md)
 * [Have pretty URLs when using S3 and CloudFront](aws/s3-cloudfront-pretty-urls.md)
-* [DynamoDB table scan](aws/dynamo-scan.md)
-* [Search CloudWatch logs](aws/search-cloudwatch-logs.md)
+* [Assume a role across AWS accounts](aws/assume-cross-account-role.md)
+* [AWS SigV4 using `curl`](aws/aws-sigv4.md)
+* [Pagination using AWS boto3](aws/pagination.md)
+* [Lambda logging](aws/lambda-logging.md)
 * [Step Function Monitoring](aws/step-function-monitoring.md)
 * [Reference AWS account](aws/reference-aws-account.md)
-* [CloudFormation default values](aws/cloudformation-default-value.md)
-* [Assume a role across AWS accounts](aws/assume-cross-account-role.md)
+* [Search CloudWatch logs](aws/search-cloudwatch-logs.md)
+* [Display EC2 instance costs per month](aws/instance-costs-per-month.md)
+* [Useful `aws` snippets](aws/aws-snippets.md)
+* [DynamoDB table scan](aws/dynamo-scan.md)
 
 ## azure
 
-* [Restrict your Microsoft Entra app to a set of users in a Microsoft Entra tenant](azure/restrict-user-access.md)
-* [Entra ID](azure/permissions.md)
-* [Find Azure Tenant Id by Subscription Id](azure/azure-tenant-id.md)
-* [Enterprise application](azure/enterprise-application.md)
 * [Azure login](azure/azure-login.md)
-* [az-104](azure/az-104.md)
+* [Enterprise application](azure/enterprise-application.md)
 * [Find permissions in RBAC roles easily](azure/permissions-in-rbac-roles.md)
-* [Invoke the Azure API via HTTP endpoints](azure/rest-api.md)
+* [Find Azure Tenant Id by Subscription Id](azure/azure-tenant-id.md)
+* [Entra ID](azure/permissions.md)
 * [Azure functions](azure/azure-functions.md)
+* [Restrict your Microsoft Entra app to a set of users in a Microsoft Entra tenant](azure/restrict-user-access.md)
+* [Invoke the Azure API via HTTP endpoints](azure/rest-api.md)
+* [az-104](azure/az-104.md)
 
 ## azure-devops
 
-* [Change workingDirectory for AWSShellScript](azure-devops/change-working-directory-aws-shell-script.md)
 * [Remove Azure DevOps Retention Leases](azure-devops/remove-retention-leases.md)
+* [Change workingDirectory for AWSShellScript](azure-devops/change-working-directory-aws-shell-script.md)
 
 ## bash
 
-* [Do some action when changing directory (cd)](bash/change-directory-actions.md)
-* [Bash snippets](bash/bash-snippets.md)
+* [Replace variables](bash/replace-variables.md)
 * [nvim](bash/nvim.md)
 * [Escaping strings in Bash using `!:q`](bash/escape-string.md)
 * [Vim](bash/vim.md)
-* [Replace variables](bash/replace-variables.md)
-* [`set -euo pipefail`](bash/set-euo-pipefail.md)
-* [Run bash script in specific directory](bash/cd-and-run-in-directory.md)
 * [Tmux](bash/tmux.md)
+* [Do some action when changing directory (cd)](bash/change-directory-actions.md)
+* [Bash snippets](bash/bash-snippets.md)
+* [Run bash script in specific directory](bash/cd-and-run-in-directory.md)
+* [`set -euo pipefail`](bash/set-euo-pipefail.md)
 
 ## browser
 
@@ -67,21 +67,21 @@ Things I've learned, collected in [fabge/til](https://github.com/fabge/til).
 
 ## git
 
+* [Squash/rebase commits](git/squash-rebase-commits.md)
+* [Rename branch](git/rename-branch.md)
+* [Using Multiple SSH Keys](git/multiple-ssh-keys.md)
 * [Revert commit](git/revert-commit.md)
 * [fatal: Need to specify how to reconcile divergent branches](git/reconcile-divergent-branches.md)
-* [safer alternative to git push --force](git/push-force.md)
-* [Using Multiple SSH Keys](git/multiple-ssh-keys.md)
-* [Squash/rebase commits](git/squash-rebase-commits.md)
-* [Write proper commit messages](git/commit-messages.md)
 * [Reference commits using the commit message](git/reference-by-commit-message.md)
-* [Rename branch](git/rename-branch.md)
+* [Write proper commit messages](git/commit-messages.md)
+* [safer alternative to git push --force](git/push-force.md)
 
 ## github
 
-* [Debug GitHub Actions](github/debug-github-actions.md)
-* [Skip CI](github/skip-ci.md)
 * [Download latest release](github/download-latest-release.md)
+* [Skip CI](github/skip-ci.md)
 * [Commit a file if it changed](github/commit-if-file-changed.md)
+* [Debug GitHub Actions](github/debug-github-actions.md)
 
 ## html
 
@@ -98,11 +98,11 @@ Things I've learned, collected in [fabge/til](https://github.com/fabge/til).
 
 ## javascript
 
+* [Pythonic Javascript](javascript/pythonic-javascript.md)
 * [Run async function on top level](javascript/async-top-level.md)
 * [Write Javascript/Node in a notebook](javascript/javascript-in-notebook.md)
 * [Print current year](javascript/print-current-year.md)
 * [Subsetting/slicing lists](javascript/list-subset.md)
-* [Pythonic Javascript](javascript/pythonic-javascript.md)
 
 ## json
 
@@ -110,9 +110,9 @@ Things I've learned, collected in [fabge/til](https://github.com/fabge/til).
 
 ## llm
 
+* [Pipe code and let explain](llm/pipe-code.md)
 * [Summarize websites](llm/summarize-websites.md)
 * [Prompt engineering](llm/prompt-engineering.md)
-* [Pipe code and let explain](llm/pipe-code.md)
 
 ## macos
 
@@ -132,27 +132,27 @@ Things I've learned, collected in [fabge/til](https://github.com/fabge/til).
 
 ## python
 
-* [Using `repr`](python/repr.md)
-* [Walrus Operator](python/walrus-operator.md)
 * [Using `lambda`](python/lambda.md)
-* [Jupyter notebook commands](python/jupyter.md)
-* [pip install while developing](python/pip-install.md)
-* [async](python/async.md)
-* [Pandas](python/pandas.md)
-* [Scope of variables](python/variables.md)
-* [pdb interact command](python/pdb-interact.md)
-* [Parallel HTTP requests in Python](python/parallel-http-requests.md)
-* [Generators](python/generators.md)
-* [Monkey Patching](python/monkey-patching.md)
-* [Install different Python versions](python/install-python-versions.md)
-* [Modules and Packages](python/modules-and-packages.md)
-* [Functions](python/functions.md)
-* [Virtual environment setup](python/virtual-environment-setup.md)
 * [defaultdict](python/defaultdict.md)
 * [nbdev](python/nbdev.md)
-* [Datetime formats](python/datetime-formats.md)
 * [Python debugger](python/debugger.md)
+* [Install different Python versions](python/install-python-versions.md)
+* [Modules and Packages](python/modules-and-packages.md)
+* [Virtual environment setup](python/virtual-environment-setup.md)
 * [Align string output with f-strings](python/align-string-output.md)
+* [Pandas](python/pandas.md)
+* [pdb interact command](python/pdb-interact.md)
+* [pip install while developing](python/pip-install.md)
+* [async](python/async.md)
+* [Scope of variables](python/variables.md)
+* [Functions](python/functions.md)
+* [Monkey Patching](python/monkey-patching.md)
+* [Walrus Operator](python/walrus-operator.md)
+* [Using `repr`](python/repr.md)
+* [Generators](python/generators.md)
+* [Jupyter notebook commands](python/jupyter.md)
+* [Datetime formats](python/datetime-formats.md)
+* [Parallel HTTP requests in Python](python/parallel-http-requests.md)
 
 ## regex
 
@@ -172,8 +172,8 @@ Things I've learned, collected in [fabge/til](https://github.com/fabge/til).
 
 ## vscode
 
-* [VS Code shortcuts](vscode/shortcuts.md)
 * [VS Code workspace settings](vscode/workspace-settings.md)
+* [VS Code shortcuts](vscode/shortcuts.md)
 
 ## zsh
 
