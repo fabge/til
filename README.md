@@ -140,6 +140,7 @@ Things I've learned, collected in [fabge/til](https://github.com/fabge/til).
 * [Modules and Packages](python/modules-and-packages.md)
 * [Virtual environment setup](python/virtual-environment-setup.md)
 * [Align string output with f-strings](python/align-string-output.md)
+* [Python miscellanea](python/misc.md)
 * [Pandas](python/pandas.md)
 * [pdb interact command](python/pdb-interact.md)
 * [pip install while developing](python/pip-install.md)
