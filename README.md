@@ -124,6 +124,7 @@ Things I've learned, collected in [fabge/til](https://github.com/fabge/til).
 
 ## programming
 
+* [Comments](programming/comments.md)
 * [Exceptions](programming/exceptions.md)
 
 ## pytest
