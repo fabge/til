@@ -16,4 +16,16 @@ add5 = Adder(5)
 print(add5(10)) # 15
 ```
 
-globals()
+#TODO globals()
+
+## function parameters
+
+```python
+sums(a=1234, b=5678)
+```
+
+is the same as
+
+```python
+sums(**{'a': 1234, 'b': 5678})
+```
