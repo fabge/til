@@ -25,6 +25,7 @@ Things I've learned, collected in [fabge/til](https://github.com/fabge/til).
 * [Invoke the Azure API via HTTP endpoints](azure/rest-api.md)
 * [Find permissions in RBAC roles easily](azure/permissions-in-rbac-roles.md)
 * [Restrict your Microsoft Entra app to a set of users in a Microsoft Entra tenant](azure/restrict-user-access.md)
+* [Azure portal tenant url](azure/azure-portal-url.md)
 * [az-104](azure/az-104.md)
 * [Find Azure Tenant Id by Subscription Id](azure/azure-tenant-id.md)
 * [Azure functions](azure/azure-functions.md)
