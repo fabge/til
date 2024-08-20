@@ -29,6 +29,7 @@ Things I've learned, collected in [fabge/til](https://github.com/fabge/til).
 * [az-104](azure/az-104.md)
 * [Find Azure Tenant Id by Subscription Id](azure/azure-tenant-id.md)
 * [Azure functions](azure/azure-functions.md)
+* [Databricks authentication with Azure](azure/databricks.md)
 * [Enterprise application](azure/enterprise-application.md)
 
 ## azure-devops
