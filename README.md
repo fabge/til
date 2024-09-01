@@ -65,7 +65,14 @@ Things I've learned, collected in [fabge/til](https://github.com/fabge/til).
 
 ## django
 
+* [Django User](django/user.md)
+* [Django general](django/general.md)
 * [Safely Pass Data to JavaScript in a Django Template](django/safely-pass-data-to-javascript-in-a-django-template.md)
+* [Django apps](django/apps.md)
+* [Django models](django/models.md)
+* [Django urls](django/urls.md)
+* [Django forms](django/forms.md)
+* [Django tests](django/tests.md)
 
 ## git
 
@@ -161,6 +168,10 @@ Things I've learned, collected in [fabge/til](https://github.com/fabge/til).
 ## regex
 
 * [Useful regex patterns](regex/basics.md)
+
+## sqlite
+
+* [Setup](sqlite/setup.md)
 
 ## ssh
 
