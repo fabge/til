@@ -1,5 +1,9 @@
 # Django forms
 
+## form validation
+
+## reuse a form template for create and update
+
 If you want to reuse a form template for e.g. creating and updating a model instance, there is a trick to specify the action:
 
 Instead of

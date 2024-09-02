@@ -96,6 +96,27 @@ class Example(models.Model):
     slug = models.AutoSlugField(unique=True, always_update=False, populate_from="name")
 ```
 
-TODO:
+## model managers
 
-Since CountryField is an extension of CharField, we treat it similarly. We want country_of_origin to be optional, since it might be unknown for some cheeses, and so we set blank=True. But we don’t set null=True because Django’s convention is to store empty values as the empty string, and to retrieve NULL/empty values as the empty string. (See Two Scoops of Django for a more detailed explanation.)
+Model managers are a feature of Django that allows you to customize the behavior of model instances.
+It is recommended to always set `objects = models.Manager()` above any custom model manager
+that has a new name.
+
+```python
+from django.db import models
+
+# First, define the Manager subclass.
+class DahlBookManager(models.Manager):
+    def get_queryset(self):
+        return super().get_queryset().filter(author="Roald Dahl")
+
+
+# Then hook it into the Book model explicitly.
+class Book(models.Model):
+    title = models.CharField(max_length=100)
+    author = models.CharField(max_length=50)
+
+    objects = models.Manager()  # The default manager.
+    dahl_objects = DahlBookManager()  # The Dahl-specific manager.
+```
+
