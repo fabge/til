@@ -67,6 +67,8 @@ Things I've learned, collected in [fabge/til](https://github.com/fabge/til).
 
 * [Django User](django/user.md)
 * [Django general](django/general.md)
+* [Django admin](django/admin.md)
+* [Django queries](django/queries.md)
 * [Safely Pass Data to JavaScript in a Django Template](django/safely-pass-data-to-javascript-in-a-django-template.md)
 * [Django apps](django/apps.md)
 * [Django models](django/models.md)
