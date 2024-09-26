@@ -20,9 +20,13 @@ patterns = [
 
 The same rule applies for template block names.
 
+{% raw %}
+
 ```html
 {% block content_body %} # instead of 'content-body'
 ```
+
+{% endraw %}
 
 ## template tags
 
