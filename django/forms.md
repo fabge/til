@@ -8,11 +8,15 @@ If you want to reuse a form template for e.g. creating and updating a model inst
 
 Instead of
 
+{% raw %}
+
 ```html
 <form method="post" action="{% url 'cheeses:add' %}">
 <!-- and -->
 <form method="post" action="{% url 'cheeses:edit' %}">
-````
+```
+
+{% endraw %}
 
 you can use
 
