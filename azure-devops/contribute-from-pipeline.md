@@ -12,6 +12,6 @@ To do so there are two steps:
       clean: true
     ```
 
-2. Then either on the `main` branch or the repository level, in the `Security` Tab set the `Contribute` permission to `Allow`
+2. Then either on the `main` branch or the repository level, in the `Security` Tab set the `Contribute` permission to `Allow` for `<ProjectName> Build Service`
 
     ![Azure DevOps Contribute Permission](contribute-from-pipeline.png)
