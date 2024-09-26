@@ -40,6 +40,8 @@ Since it’s not always possible to do this at the beginning of a project, our r
 
 ## utility functions
 
+{% raw %}
+
 ```python
 from django.core.exceptions import PermissionDenied
 from django.http import HttpRequest, HttpResponse
@@ -56,5 +58,7 @@ def check_sprinkles(request: HttpRequest) -> HttpRequest:
     # Return a HTTP 403 back to the user
     raise PermissionDenied
 ```
+
+{% endraw %}
 
 You’ll note that we return back a HttpRequest object rather than an arbitrary value or even a None object. We do this because as Python is a dynamically typed language, we can attach additional attributes to the HttpRequest.
