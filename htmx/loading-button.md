@@ -31,3 +31,12 @@ Click here for the full source code: [loading-button-src.html](./loading-button-
 ```
 
 <iframe src="./loading-button-src.html" name="loading-button-src.html"></iframe>
+
+TODO
+<form-
+hx-post="/dog"-
+hx-disabled-elt="#add-btn"-
+hx-target="table tbody"
+hx-swap="afterbegin"-
+hx-on:htmx:after-request="this.reset()"-
+>-
