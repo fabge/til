@@ -27,4 +27,3 @@ const getTableName = (addressType: 'shipping' | 'billing') => {
 ## Use the same names for things across the stack
 
 ## Flat is better than nested
-
