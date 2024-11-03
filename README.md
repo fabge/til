@@ -142,6 +142,7 @@ Things I've learned, collected in [fabge/til](https://github.com/fabge/til).
 
 * [Idempotence](misc/idempotence.md)
 * [Database Fields](misc/database-fields.md)
+* [Greppability](misc/greppability.md)
 
 ## programming
 
