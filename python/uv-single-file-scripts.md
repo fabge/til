@@ -18,5 +18,5 @@ data = resp.json()
 pprint([(k, v["title"]) for k, v in data.items()][:10])
 ```
 
-From there, uv run main.py will execute the script in an isolated, ephemeral virtual environment with all of its dependencies installed.
+From there, `uv run main.py` will execute the script in an isolated, ephemeral virtual environment with all of its dependencies installed.
 (from https://astral.sh/blog/uv-unified-python-packaging)
