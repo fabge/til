@@ -10,6 +10,7 @@ uv includes first-class support for single-file Python scripts with inline depen
 #     "rich",
 # ]
 # ///
+
 import requests
 from rich.pretty import pprint
 
