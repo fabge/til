@@ -49,6 +49,7 @@ Things I've learned, collected in [fabge/til](https://github.com/fabge/til).
 * [Vim](bash/vim.md)
 * [Tmux](bash/tmux.md)
 * [Do some action when changing directory (cd)](bash/change-directory-actions.md)
+* [Modern PATH environment variable](bash/PATH.md)
 
 ## browser
 
@@ -140,6 +141,7 @@ Things I've learned, collected in [fabge/til](https://github.com/fabge/til).
 
 ## misc
 
+* [XY Problem](misc/x-y-problem.md)
 * [Idempotence](misc/idempotence.md)
 * [Database Fields](misc/database-fields.md)
 * [Greppability](misc/greppability.md)
