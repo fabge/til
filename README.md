@@ -27,6 +27,7 @@ Things I've learned, collected in [fabge/til](https://github.com/fabge/til).
 * [Find permissions in RBAC roles easily](azure/permissions-in-rbac-roles.md)
 * [Find Azure Tenant Id by Subscription Id](azure/azure-tenant-id.md)
 * [Invoke the Azure API via HTTP endpoints](azure/rest-api.md)
+* [Set up Databricks via Bicep](azure/databricks-iac.md)
 * [Azure functions](azure/azure-functions.md)
 * [Databricks authentication with Azure](azure/databricks.md)
 * [az login](azure/azure-login.md)
