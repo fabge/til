@@ -15,11 +15,12 @@ def get_pokemon(url):
     response = requests.get(url)
     pokemon = response.json()
     print(pokemon['name'])
+    return pokemon['name']
 
 urls = [f'https://pokeapi.co/api/v2/pokemon/{number}' for number in range(1,151)]
 
 with concurrent.futures.ThreadPoolExecutor() as executor:
-   executor.map(get_pokemon, urls)
+   pokemon_names = list(executor.map(get_pokemon, urls))
 ```
 
 ## `fastcore.parallel`
@@ -33,10 +34,11 @@ def get_pokemon(url):
     response = requests.get(url)
     pokemon = response.json()
     print(pokemon['name'])
+    return pokemon['name']
 
 urls = [f'https://pokeapi.co/api/v2/pokemon/{number}' for number in range(1,151)]
 
-parallel(get_pokemon, urls, n_workers=8)
+pokemon_names = parallel(get_pokemon, urls, n_workers=8)
 ```
 
 relevant articles:
