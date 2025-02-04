@@ -1,5 +1,15 @@
 # Set up Databricks via Bicep
 
+When trying to set up Databricks via Bicep, I ran into the following error:
+
+```text
+Managed Resource group for the workspace: '/subscriptions/11111111-1111-1111-1111-111111111111/resourceGroups/test-rg' doesn't have managed by property referring to Databricks workspace resource (Code: ApplianceProvisioningFailed)
+```
+
+This is because the managed resource group is not being created by the Databricks Bicep template.
+
+To fix this, we need to construct the managed resource group name in a certain way and pass it to the Databricks Bicep template.
+
 ```bicep
 param workspaceName string = 'databricks-workspace'
 param location string = resourceGroup().location
@@ -26,5 +36,4 @@ resource managedResourceGroup 'Microsoft.Resources/resourceGroups@2021-04-01' ex
  scope: subscription()
  name: managedResourceGroupName
 }
-
 ```
