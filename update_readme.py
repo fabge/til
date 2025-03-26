@@ -1,18 +1,16 @@
-import re
 from pathlib import Path
+
+import regex
 
 root = Path('.')
 readme = ["Things I've learned, collected in [fabge/til](https://github.com/fabge/til).\n\n"]
 for folder in sorted(root.iterdir()):
-    if folder.is_dir() and not folder.as_posix().startswith(('.', 'assets')):
-        readme.append(f'## {folder}\n\n')
-        for file in folder.iterdir():
-            if file.suffix == '.md':
-                with open(file, 'r') as f:
-                    md = f.read()
-                title = re.search('# (.*?)\n', md).group(1)
-                readme.append(f'* [{title}]({file})\n')
+    if folder.is_dir() and not folder.name.startswith(('.', 'assets')):
+        readme.append(f'## {folder.name}\n\n')
+        for file in sorted(folder.glob('*.md')):
+            content = file.read_text()
+            title = regex.search('# (.*?)\n', content)[1]
+            readme.append(f'* [{title}]({file})\n')
         readme.append('\n')
 
-with open('README.md', 'w') as f:
-    f.write(''.join(readme))
+Path('README.md').write_text(''.join(readme), encoding='utf-8')
