@@ -4,8 +4,8 @@ To format/pretty-print a blob of JSON in your clipboard, following methods are a
 
 ## vscode
 
-Hit CMD+N to create a new document, paste the JSON blob in there, hit CMD+K then M and change the language to JSON.
-Hit CMD+Shift+P and type and select Format Document.
+Hit `CMD+N` to create a new document, paste the JSON blob in there, hit `CMD+K` then `M` and change the language to JSON.  
+Hit `CMD+Shift+P` and type and select Format Document.
 
 ## terminal
 
