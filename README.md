@@ -29,7 +29,6 @@ Things I've learned, collected in [fabge/til](https://github.com/fabge/til).
 * [Find permissions in RBAC roles easily](azure/permissions-in-rbac-roles.md)
 * [Entra ID](azure/permissions.md)
 * [Invoke the Azure API via HTTP endpoints](azure/rest-api.md)
-* [Restrict your Microsoft Entra app to a set of users in a Microsoft Entra tenant](azure/restrict-user-access.md)
 
 ## azure-devops
 
