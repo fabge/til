@@ -1,6 +1,5 @@
+import re
 from pathlib import Path
-
-import regex
 
 root = Path('.')
 readme = ["Things I've learned, collected in [fabge/til](https://github.com/fabge/til).\n\n"]
@@ -9,7 +8,7 @@ for folder in sorted(root.iterdir()):
         readme.append(f'## {folder.name}\n\n')
         for file in sorted(folder.glob('*.md')):
             content = file.read_text()
-            title = regex.search('# (.*?)\n', content)[1]
+            title = re.search('# (.*?)\n', content).group(1)
             readme.append(f'* [{title}]({file})\n')
         readme.append('\n')
 
