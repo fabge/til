@@ -1,10 +1,10 @@
 # Database Fields
 
-❌ emailVerified
-✅ emailVerifiedAt
+❌ `emailVerified`  
+✅ `emailVerifiedAt`
 
-❌ isDeleted
-✅ deletedAt
+❌ `isDeleted`  
+✅ `deletedAt`
 
 A interesting anti-under-engineering trick is to use timestamps instead of booleans in the database.
 
