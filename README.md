@@ -156,7 +156,6 @@ Things I've learned, collected in [fabge/til](https://github.com/fabge/til).
 * [defaultdict](python/defaultdict.md)
 * [Functions](python/functions.md)
 * [Generators](python/generators.md)
-* [Install different Python versions](python/install-python-versions.md)
 * [Jupyter notebook commands](python/jupyter.md)
 * [Using `lambda`](python/lambda.md)
 * [Python miscellanea](python/misc.md)
