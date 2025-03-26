@@ -1,6 +1,6 @@
 # How to cheat at unit tests
 
-From [Simon Willison](https://simonwillison.net/2020/Feb/11/cheating-at-unit-tests-pytest-black/):
+From [Simon Willison](https://simonwillison.net/2020/Feb/11/cheating-at-unit-tests-pytest-black/)
 
 ## How to cheat at unit tests with pytest and Black
 
@@ -16,8 +16,8 @@ Here’s how I do that with pytest. I’ll write a test that looks something lik
 
 ```python
 def test_some_api(client):
-    response = client.get("/some/api/") 
-    assert False == response.json() 
+    response = client.get("/some/api/")
+    assert False == response.json()
 ```
 
 Note that I’m using the pytest-django `client` fixture here, which magically passes a fully configured Django test client object to my test function.
@@ -25,7 +25,7 @@ Note that I’m using the pytest-django `client` fixture here, which magically p
 I run this test, and it fails:
 
 ```python
-pytest -k test_some_api 
+pytest -k test_some_api
 ```
 
 (`pytest -k blah` runs just tests that contain `blah` in their name)
@@ -79,6 +79,6 @@ This last step means that no matter how giant and ugly the test comparison has b
 
 I always eyeball the generated test to make sure that it’s what I would have written by hand if I wasn’t so lazy—then I commit it along with the implementation and move on to the next task.
 
-I’ve used this technique to write many of the tests in both</a> [Datasette](https://github.com/simonw/datasette) and [sqlite-utils](https://github.com/simonw/sqlite-utils), and those are by far the best tested pieces of software I’ve ever released.
+I’ve used this technique to write many of the tests in both [Datasette](https://github.com/simonw/datasette) and [sqlite-utils](https://github.com/simonw/sqlite-utils), and those are by far the best tested pieces of software I’ve ever released.
 
 I started doing this around two years ago, and I’ve held off writing about it until I was confident I understood the downsides. I haven’t found any yet: I end up with a robust, comprehensive test suite and it takes me less than half the time to write the tests than if I’d been hand-crafting all of those comparisons from scratch.

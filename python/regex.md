@@ -25,7 +25,7 @@ re.findall(r'<link rel="alternate" type="application/json" href="(\S+)"', text)
 
 ## `regex` library
 
-The `regex` library is a superset of the `re` library. It was introduced in Python 3.8 with additional features and more thorough Unicode support.
+The `regex` library is a superset of the `re` library. It has additional features and more thorough Unicode support.
 
 What is specifically handy is the `.captures` method. It returns a list of all the captures in the order they appear in the regex pattern.
 

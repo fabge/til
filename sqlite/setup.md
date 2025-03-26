@@ -5,7 +5,4 @@ This is to preserve backwords compatibility but means that the database can hand
 
 Simon Willison has written great tutorial on how to setup SQLite with WAL mode enabled:
 
-https://til.simonwillison.net/sqlite/enabling-wal-mode
-
-TODO
-https://x.com/levelsio/status/1552002323324485632
+<https://til.simonwillison.net/sqlite/enabling-wal-mode>

@@ -16,7 +16,27 @@ add5 = Adder(5)
 print(add5(10)) # 15
 ```
 
-#TODO globals()
+## globals()
+
+The `globals()` function returns a dictionary representing the current global symbol table. This includes all global variables and functions in the current module.
+
+```python
+x = 1
+def foo():
+    print("hello")
+
+# Get dictionary of global symbols
+global_dict = globals()
+print(global_dict['x'])  # prints: 1
+print(global_dict['foo'])  # prints: <function foo at ...>
+```
+
+You can also modify global variables using this dictionary, though this is generally not recommended:
+
+```python
+globals()['x'] = 100
+print(x)  # prints: 100
+```
 
 ## function parameters
 

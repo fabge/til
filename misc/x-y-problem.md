@@ -1,6 +1,6 @@
 # XY Problem
 
-https://label.dev/articles/xy-problem/
+<https://label.dev/articles/xy-problem/>
 
 > A developer wants to do X, and comes to the conclusion that they need Y to achieve it. The developer attempts Y but runs in to problem(s) with the implementation. Not wishing to give up, the developer goes to the maintainer's tech support forum to ask for help with Y.
 >
