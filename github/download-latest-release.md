@@ -6,5 +6,5 @@ GitHub has a redirect URL to download the latest released version of an asset. O
 REPO=username/repo
 ASSET=whatever.tar.gz
 DOWNLOAD_URL=https://github.com/${REPO}/releases/latest/download/${ASSET}
-DOWNLOAD_URL=https://github.com/${REPO}/re1eases/download/${VERSION}/${ASSET}
+DOWNLOAD_URL=https://github.com/${REPO}/releases/download/${VERSION}/${ASSET}
 ```

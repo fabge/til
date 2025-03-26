@@ -43,5 +43,5 @@ pokemon_names = parallel(get_pokemon, urls, n_workers=8)
 
 relevant articles:
 
-- https://isaac-flath.github.io/fastblog/fastcore/fastai/2021/04/01/PythonConcurrency.html
-- https://python.hamel.dev/concurrency/
+- <https://isaac-flath.github.io/fastblog/fastcore/fastai/2021/04/01/PythonConcurrency.html>
+- <https://python.hamel.dev/concurrency/>

@@ -5,7 +5,7 @@ LLMs like ChatGPT give us a simple user interface, which makes it seemingly easy
 ---
 
 One of my favorite prompts is, **"Do that better"** - because you can just say that! And then it tries to do it better.
-    - https://simonw.substack.com/p/talking-about-open-source-llms-on
+    - <https://simonw.substack.com/p/talking-about-open-source-llms-on>
 
 ---
 
@@ -32,4 +32,4 @@ If you want to improve your code, paste it into the prompt and ask e.g.:
 >
 >Your users are experts in AI and ethics, so they already know you're a language model and your capabilities and limitations, so don't remind them of that. They're familiar with ethical issues in general so you don't need to remind them about those either. Don't be verbose in your answers, but do provide details and examples where it might help the explanation. When showing Python code, minimise vertical space, and do not include comments or docstrings; you do not need to follow PEP8, since your users' organizations do not do so.
 
-from: https://github.dev/fastai/lm-hackers
+from: <https://github.dev/fastai/lm-hackers>

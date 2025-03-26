@@ -1,6 +1,6 @@
 # Greppability
 
-from: https://morizbuesing.com/blog/greppability-code-metric
+from: <https://morizbuesing.com/blog/greppability-code-metric>
 
 ## Don’t split up identifiers
 

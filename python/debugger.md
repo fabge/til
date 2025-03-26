@@ -23,4 +23,4 @@ python -m pdb -c c test.py
 
 The `-c c` option continues the program immediately, so you don't have to type `c` to continue.
 
-(from: https://twitter.com/jeremyphoward/status/1756541454288396402)
+(from: <https://twitter.com/jeremyphoward/status/1756541454288396402>)

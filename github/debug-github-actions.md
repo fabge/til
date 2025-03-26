@@ -1,3 +1,3 @@
 # Debug GitHub Actions
 
-https://til.simonwillison.net/github-actions/debug-tmate
+<https://til.simonwillison.net/github-actions/debug-tmate>

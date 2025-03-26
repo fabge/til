@@ -5,4 +5,4 @@ Even when S3, Cloudfront and Cloudflare were set up correctly, requests to the n
 
 ![err_too_many_redirects](err_too_many_redirects.png)
 
-After some googling, the solution turned out to be to set the Cloudflare SSL/TLS encryption mode to `Full` instead of the default `Flexible`.
+After some googling, the solution turned out to be to **set the Cloudflare SSL/TLS encryption mode to `Full` instead of the default `Flexible`.**

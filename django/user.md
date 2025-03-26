@@ -2,7 +2,7 @@
 
 ## custom user model
 
-(from: https://docs.djangoproject.com/en/5.1/topics/auth/customizing/)
+(from: <https://docs.djangoproject.com/en/5.1/topics/auth/customizing/>)
 
 When starting a new project, it’s highly recommended to set up a custom user model, even if the default `User` model is sufficient. This model behaves identically to the default user model, but makes it easy to customize it in the future if the need arises:
 
@@ -177,10 +177,10 @@ Our preference is the first option, to link back from a related model and combin
 class Inventor(User):
     # ...
     objects = InventorManager()
-    
+
     class Meta:
         proxy = True
-    
+
     @property
     def extra(self):
         return self.inventorprofile
@@ -188,10 +188,10 @@ class Inventor(User):
 class Scooper(User):
     # ...
     objects = ScooperManager()
-    
+
     class Meta:
         proxy = True
-    
+
     @property
     def extra(self):
         return self.scooperprofile
@@ -199,10 +199,10 @@ class Scooper(User):
 class Eater(User):
     # ...
     objects = EaterManager()
-    
+
     class Meta:
         proxy = True
-    
+
     @property
     def extra(self):
         return self.eaterprofile
