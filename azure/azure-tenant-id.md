@@ -12,3 +12,5 @@ response = requests.get(url)
 if header:= response.headers.get('WWW-Authenticate'):
     tenant_id = re.search(r'(?<=https:\/\/login.windows.net\/).*?(?=")', header).group()
 ```
+
+Somewhat hacky, but it works.

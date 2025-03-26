@@ -1,6 +1,6 @@
 # Have pretty URLs when using S3 and CloudFront
 
-An S3 bucket in combination with CloudFront can be set up in [various different ways](https://aws.amazon.com/premiumsupport/knowledge-center/cloudfront-serve-static-website/). The only way though, to have pretty URLs, e.g. example.com/blog instead of example.com/blog.html is to configure the S3 bucket for Static Website Hosting.
+An S3 bucket in combination with CloudFront can be set up in [various different ways](https://aws.amazon.com/premiumsupport/knowledge-center/cloudfront-serve-static-website/). The only way though to have pretty URLs, e.g. `https://example.com/blog` instead of `https://example.com/blog.html` is to configure the S3 bucket for Static Website Hosting.
 
 From [Building a static serverless website using S3 and CloudFront](https://sanderknape.com/2020/02/building-a-static-serverless-website-using-s3-cloudfront/):
 

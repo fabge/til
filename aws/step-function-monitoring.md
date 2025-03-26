@@ -38,7 +38,6 @@ This EventBridge Rule triggers a Lambda function, which can e.g. parse the error
 
 ```yaml
   StepFunctionEventParserFunction:
-    Condition: IsFrankfurt
     Type: AWS::Serverless::Function
     Properties:
       Description: Event Parsing Lambda for Step Function Errors, sends parsed error message to SNS topic when a Step Function fails or times out.

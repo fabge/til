@@ -10,4 +10,4 @@ In some IAM policies, you need to permit an AWS account to perform an action. Th
 "Principal": { "AWS": "123456789012" }
 ```
 
-The account ARN and the shortened account ID behave the same way. Both delegate permissions to the account. Using the account ARN in the Principal element **does not limit permissions to only the root user of the account**.
+The account ARN and the shortened account ID behave the same way. Both delegate permissions to the account. Using the account ARN in the Principal element **does not limit permissions to only the root user of the account**, eventhough it might seem so at first glance.
