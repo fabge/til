@@ -1,3 +1,3 @@
 # Modern PATH environment variable
 
-https://blog.izissise.net/posts/env-path/
+<https://blog.izissise.net/posts/env-path/>

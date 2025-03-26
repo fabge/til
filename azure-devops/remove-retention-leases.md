@@ -6,30 +6,22 @@ Following Python script loops through all builds and removes the retention lease
 
 ```python
 import requests
+
 AZURE_DEVOPS_PAT = "pswd"
 BASE_URL = "https://dev.azure.com/org/project"
-HEADERS = {"Content-Type": "application/json-patch+json"}
 BUILD_DEFINITION_ID = '750'
 
-url = f"{BASE_URL}/_apis/build/builds?definitions={BUILD_DEFINITION_ID}"
-response = requests.get(
-    url,
-    headers=HEADERS,
-    auth=("", AZURE_DEVOPS_PAT),
-)
+session = requests.Session()
+session.headers.update({"Content-Type": "application/json-patch+json"})
+session.auth = ("", AZURE_DEVOPS_PAT)
+
+response = session.get(f"{BASE_URL}/_apis/build/builds?definitions={BUILD_DEFINITION_ID}")
 builds = response.json()['value']
+
 for build in builds:
     if not build['retainedByRelease']:
         continue
-    response = requests.get(
-        f"{BASE_URL}/_apis/build/builds/{build['id']}/leases?api-version=7.1-preview.1",
-        headers=HEADERS,
-        auth=("", AZURE_DEVOPS_PAT),
-    )
+    response = session.get(f"{BASE_URL}/_apis/build/builds/{build['id']}/leases?api-version=7.1-preview.1")
     for lease in response.json()['value']:
-        response = requests.delete(
-            f"{BASE_URL}/_apis/build/retention/leases?ids={lease['leaseId']}&api-version=6.0-preview.1",
-            headers=HEADERS,
-            auth=("", AZURE_DEVOPS_PAT),
-        )
+        response = session.delete(f"{BASE_URL}/_apis/build/retention/leases?ids={lease['leaseId']}&api-version=6.0-preview.1")
 ```
