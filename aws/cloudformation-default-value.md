@@ -1,6 +1,6 @@
 # CloudFormation default values
 
-The AWS Documentation for CloudFormation `Default` values says:
+The [AWS Documentation for CloudFormation `Default`](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/parameters-section-structure.html) values says:
 
 > A value of the appropriate type for the template to use if no value is specified when a stack is created. If you define constraints for the parameter, you must specify a value that adheres to those constraints.
 
