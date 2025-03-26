@@ -4,7 +4,6 @@ Things I've learned, collected in [fabge/til](https://github.com/fabge/til).
 
 * [Assume a role across AWS accounts](aws/assume-cross-account-role.md)
 * [AWS SigV4 using `curl`](aws/aws-sigv4.md)
-* [Useful `aws` snippets](aws/aws-snippets.md)
 * [CloudFormation default values](aws/cloudformation-default-value.md)
 * [CloudTrail](aws/cloudtrail.md)
 * [Access AWS resources from Azure without credentials](aws/cross-cloud-access.md)
