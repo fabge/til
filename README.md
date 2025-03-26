@@ -19,7 +19,6 @@ Things I've learned, collected in [fabge/til](https://github.com/fabge/til).
 
 ## azure
 
-* [az-104](azure/az-104.md)
 * [Azure functions](azure/azure-functions.md)
 * [az login](azure/azure-login.md)
 * [Azure portal tenant url](azure/azure-portal-url.md)
