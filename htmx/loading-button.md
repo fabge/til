@@ -6,7 +6,7 @@ When a user clicks a button the response may be slow.
 Solution:
 
 1. Display a loading indicator
-1. Set aria-disabled="true" on the button (avoid disabled since it's unfriendly to screen readers)
+1. Set disabled attribute on the button
 1. Ignore additional button clicks while loading is in progress
 1. Consider changing the label to clarify what's happening
 
@@ -31,12 +31,3 @@ Click here for the full source code: [loading-button-src.html](./loading-button-
 ```
 
 <iframe src="./loading-button-src.html" name="loading-button-src.html"></iframe>
-
-TODO
-<form-
-hx-post="/dog"-
-hx-disabled-elt="#add-btn"-
-hx-target="table tbody"
-hx-swap="afterbegin"-
-hx-on:htmx:after-request="this.reset()"-
->-
