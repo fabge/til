@@ -63,10 +63,6 @@ Things I've learned, collected in [fabge/til](https://github.com/fabge/til).
 * [Border around every element using CSS selector](css/border.md)
 * [How to center](css/center.md)
 
-## deno
-
-* [Deno Jupyter](deno/jupyter.md)
-
 ## django
 
 * [Django admin](django/admin.md)
@@ -114,7 +110,7 @@ Things I've learned, collected in [fabge/til](https://github.com/fabge/til).
 ## javascript
 
 * [Run async function on top level](javascript/async-top-level.md)
-* [Write Javascript/Node in a notebook](javascript/javascript-in-notebook.md)
+* [Deno Jupyter](javascript/jupyter.md)
 * [Subsetting/slicing lists](javascript/list-subset.md)
 * [Print current year](javascript/print-current-year.md)
 * [Pythonic Javascript](javascript/pythonic-javascript.md)
