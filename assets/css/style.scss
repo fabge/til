@@ -5,6 +5,10 @@
 
 @media (prefers-color-scheme: dark) {
     html {
-        filter: invert(1);
+      filter: invert(100%) hue-rotate(40deg);
+    }
+
+    img, video {
+      filter: invert(100%) hue-rotate(320deg);
     }
 }
