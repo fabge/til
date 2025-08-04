@@ -9,6 +9,7 @@ Things I've learned, collected in [fabge/til](https://github.com/fabge/til).
 * [Access AWS resources from Azure without credentials](aws/cross-cloud-access.md)
 * [DynamoDB Global Secondary Indexes](aws/dynamo-global-secondary-indexes.md)
 * [DynamoDB table scan](aws/dynamo-scan.md)
+* [Update DynamoDB item](aws/dynamo-update-item.md)
 * [Display EC2 instance costs per month](aws/instance-costs-per-month.md)
 * [Lambda logging](aws/lambda-logging.md)
 * [Pagination using AWS boto3](aws/pagination.md)
