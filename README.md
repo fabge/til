@@ -141,6 +141,7 @@ Things I've learned, collected in [fabge/til](https://github.com/fabge/til).
 * [Exceptions](misc/exceptions.md)
 * [Greppability](misc/greppability.md)
 * [Idempotence](misc/idempotence.md)
+* [improve http call speed](misc/improve-http-call-speed.md)
 * [loops and variable names](misc/loops.md)
 * [XY Problem](misc/x-y-problem.md)
 
