@@ -93,6 +93,7 @@ Things I've learned, collected in [fabge/til](https://github.com/fabge/til).
 * [Commit a file if it changed](github/commit-if-file-changed.md)
 * [Debug GitHub Actions](github/debug-github-actions.md)
 * [Download latest release](github/download-latest-release.md)
+* [Github pages](github/github-pages.md)
 * [Skip CI](github/skip-ci.md)
 
 ## html
