@@ -55,6 +55,10 @@ Things I've learned, collected in [fabge/til](https://github.com/fabge/til).
 * [Make a website fully editable with document.designMode](browser/document-design-mode.md)
 * [Take screenshots right from the browser](browser/screenshots.md)
 
+## cloud
+
+* [api for aws, azure, gcp](cloud/api-aws-azure-gcp.md)
+
 ## cloudflare
 
 * [ERR_TOO_MANY_REDIRECTS](cloudflare/err_too_many_redirects.md)
@@ -76,6 +80,10 @@ Things I've learned, collected in [fabge/til](https://github.com/fabge/til).
 * [Django tests](django/tests.md)
 * [Django urls](django/urls.md)
 * [Django User](django/user.md)
+
+## gcp
+
+* [gcp basics](gcp/commands.md)
 
 ## git
 
