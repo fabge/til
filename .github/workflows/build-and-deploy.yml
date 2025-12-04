@@ -25,10 +25,12 @@ jobs:
         uses: actions/setup-python@v5
         with:
           python-version: '3.13'
-      - name: Update README.md
+      - name: Install cog
+        run: pip install cogapp
+      - name: Update README.md with cog
         run: |
           python --version
-          python update_readme.py
+          cog -r README.md
           cat README.md
       - name: Commit and push if README changed
         run: |-

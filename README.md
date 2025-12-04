@@ -1,5 +1,20 @@
 Things I've learned, collected in [fabge/til](https://github.com/fabge/til).
 
+<!-- [[[cog
+import cog
+import re
+from pathlib import Path
+
+root = Path('.')
+for folder in sorted(root.iterdir()):
+    if folder.is_dir() and not folder.name.startswith(('.', '_', 'assets')):
+        cog.outl(f'## {folder.name}\n')
+        for file in sorted(folder.glob('*.md')):
+            content = file.read_text()
+            title = re.search('# (.*?)\\n', content).group(1)
+            cog.outl(f'* [{title}]({file})')
+        cog.outl('')
+]]] -->
 ## aws
 
 * [Assume a role across AWS accounts](aws/assume-cross-account-role.md)
@@ -209,3 +224,4 @@ Things I've learned, collected in [fabge/til](https://github.com/fabge/til).
 
 * [zsh goodies](zsh/shortcuts.md)
 
+<!-- [[[end]]] -->
