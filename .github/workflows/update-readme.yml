@@ -1,4 +1,4 @@
-name: Build and deploy
+name: Update README
 
 on:
   push:
@@ -8,16 +8,11 @@ on:
 
 permissions:
   contents: write
-  pages: write
-  id-token: write
-
-concurrency:
-  group: "pages"
-  cancel-in-progress: false
 
 jobs:
-  build:
+  update-readme:
     runs-on: ubuntu-latest
+    if: github.actor != 'github-actions[bot]' || github.event_name == 'workflow_dispatch'
     steps:
       - name: Check out repo
         uses: actions/checkout@v4
@@ -28,10 +23,7 @@ jobs:
       - name: Install cog
         run: pip install cogapp
       - name: Update README.md with cog
-        run: |
-          python --version
-          cog -r README.md
-          cat README.md
+        run: cog -r README.md
       - name: Commit and push if README changed
         run: |-
           git diff
@@ -39,20 +31,3 @@ jobs:
           git config --global user.name "README-bot"
           git diff --quiet || (git add README.md && git commit -m "Update README.md")
           git push
-      - name: Setup Pages
-        uses: actions/configure-pages@v5
-      - name: Build
-        uses: actions/jekyll-build-pages@v1
-      - name: Upload artifact
-        uses: actions/upload-pages-artifact@v3
-
-  deploy:
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
-    runs-on: ubuntu-latest
-    needs: build
-    steps:
-      - name: Deploy to GitHub Pages
-        id: deployment
-        uses: actions/deploy-pages@v4
