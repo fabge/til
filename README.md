@@ -153,6 +153,7 @@ for folder in sorted(root.iterdir()):
 * [Pipe code and let explain](llm/pipe-code.md)
 * [Prompt engineering](llm/prompt-engineering.md)
 * [Summarize websites](llm/summarize-websites.md)
+* [tools](llm/tools.md)
 
 ## macos
 
